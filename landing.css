@@ -1,0 +1,152 @@
+.logo__image {
+    height: 5em;
+}
+
+body {
+    margin: 0 0 0 0;
+    color: white;
+    background-color: #151019;
+    font-family: sans-serif;
+    /* background-image: url('https://wallpaperaccess.com/full/1567666.png '); */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #97CAEF; */
+    align-items: center;
+    height: 7em;
+    border-bottom: 1px solid black;
+}
+
+.logo__link {
+    width: 3em;
+    font-size: 3em;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    color: white;
+    background-color: #FF9700;
+    border-radius: 10px;
+}
+
+.logo {
+    /* background-color: #FF9700; */
+    /* border: 1px solid white; */
+    /* border-radius: 40px; */
+    margin-left: 1.5em;
+    /* margin-top: 2em; */
+}
+
+nav {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 30em;
+    justify-content: space-around;
+}
+
+.main__image {
+    height: 20em;
+}
+
+.skivi-presentation {
+    margin-top: 5em;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #EC8F6A; */
+}
+
+.skivi-says-hi {
+    font-size: 2em;
+}
+
+.skivi-presentation__div {
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.paths {
+    margin-top: 8em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paths__image {
+    width: 20em;
+    /* border: 1px solid black; */
+    /* margin-left: 5em; */
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.path {
+    /* background-image: url('https://www.slidescarnival.com/wp-content/uploads/2019/09/slidescarnival-background-image.png'); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+    background-color: #FF9700;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+
+.path:hover {
+    background-color: rgba(255, 151, 0, 0.75);
+}
+
+.path__links {
+    text-decoration: none;
+    color: white;
+}
+
+.path__title {
+    text-align: center;
+}
+
+.path__description {
+    max-width: 20em;
+    /* border: 1px solid black; */
+    margin-left: 2em;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1em;
+    /* text-align: center; */
+}
+
+footer {
+    /* background-color: #97CAEF; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8em;
+    /* background-color: #05386B; */
+    border-top: 1px solid black;
+    /* background-image: url('https://myredmouse.com/wp-content/uploads/2019/04/background-header-technology.jpg'); */
+}
+
+.footer__icon-redirection {
+    height: 2.5em;
+    margin-right: 1.5em;
+}
+
+.nav-button__anchor {
+    text-decoration: none;
+    /* color: #EC8F6A; */
+    color: #FFFFFF;
+    border-radius: 10px;
+    /* border: 1px solid #EC8F6A; */
+    background-color: #FF9700;
+    padding: 0.45em;
+}
+
+.nav-button {
+    font-size: 1.5em;
+    /* background: #EC8F6A; */
+}
+
+.nav-button__anchor:hover {
+    background-color: rgba(255, 151, 0, 0.75);
+}
