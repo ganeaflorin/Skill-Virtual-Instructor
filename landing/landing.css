@@ -133,3 +133,10 @@ footer {
 .nav-button__anchor:hover {
     background-color: rgba(255, 151, 0, 0.75);
 }
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail:hover{
+    color:#FF9700;
+}

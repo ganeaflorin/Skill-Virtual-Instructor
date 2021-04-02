@@ -175,3 +175,10 @@ footer {
     height: 2.5em;
     margin-right: 1.5em;
 }
+.mail{
+    text-decoration: none;
+    color: white;
+}
+.mail:hover{
+    color:#FF9700;
+}
