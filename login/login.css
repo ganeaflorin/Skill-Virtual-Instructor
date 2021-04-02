@@ -111,6 +111,10 @@ form {
     text-decoration: none;
     color: white;
 }
+.forgot-password:hover{
+    color: #151019;
+    font-weight: 600;
+}
 
 .login-btn {
     border: 0;
