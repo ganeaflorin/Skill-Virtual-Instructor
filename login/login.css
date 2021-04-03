@@ -125,7 +125,7 @@ form {
     text-align: center;
     border: 1px solid #151019;
     padding: 1.5em 0.8em;
-    width: 19em;
+    width: 15em;
     outline: none;
     color: white;
     border-radius: 1.5em;
@@ -134,7 +134,7 @@ form {
 }
 
 .login-btn:hover {
-    width: 15em;
+    width: 17em;
     border-color: #2ecc71;
     background-color: #3498DB;
 }
@@ -150,7 +150,7 @@ form {
     text-align: center;
     border: 1px solid #151019;
     padding: 1em 0.8em;
-    width: 7em;
+    width: 5em;
     outline: none;
     color: white;
     border-radius: 1.5em;
@@ -159,7 +159,7 @@ form {
 }
 
 .sign-up-btn:hover {
-    width: 5em;
+    width: 7em;
     background-color: #2ecc71;
     border: 1px solid #2ecc71;
 }

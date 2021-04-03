@@ -75,13 +75,29 @@ main {
 }
 
 .path-description {
-    font-size: 2em;
+    font-size: 1.6em;
     display: flex;
     flex-direction: column;
+    text-align: justify;
+    word-wrap: break-word;
+    margin-right: 0.85em;
 }
 
 .path-description:nth-child(2n+1) {
     margin-left: 2em;
+}
+
+.main__path-link {
+    text-decoration: none;
+    color: white;
+}
+
+.main__path-section:hover {
+    background-color: rgba(255, 151, 0, 0.75);
+}
+
+.main__path-section-skivi:hover {
+    background-color: #FF9700;
 }
 
 footer {
