@@ -1,0 +1,99 @@
+.logo__image {
+    height: 5em;
+}
+
+body {
+    margin: 0 0 0 0;
+    color: white;
+    background-color: #151019;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7em;
+    border-bottom: 1px solid black;
+}
+
+.logo__link {
+    width: 3em;
+    font-size: 3em;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-decoration: none;
+    color: white;
+    background-color: #FF9700;
+    border-radius: 10px;
+}
+
+.logo {
+    margin-left: 1.5em;
+}
+
+.header__image {
+    height: 6em;
+    margin-left: 21em;
+}
+
+nav {
+    display: flex;
+    width: 30em;
+    justify-content: space-around;
+}
+
+.main__image {
+    height: 20em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8em;
+    border-top: 1px solid black;
+}
+
+.footer__icon-redirection {
+    height: 2.5em;
+    margin-right: 1.5em;
+}
+
+.footer__icon-redirection:hover {
+    background-color: #FF9700;
+    border-radius: 50%;
+}
+
+.footer__icon-redirection-instagram {
+    height: 2.5em;
+    margin-right: 1.5em;
+}
+
+.footer__icon-redirection-instagram:hover {
+    background-color: #FF9700;
+    border-radius: 40%;
+}
+
+.nav-button__anchor {
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0.45em;
+}
+
+.nav-button {
+    font-size: 1.5em;
+}
+
+.nav-button__anchor:hover {
+    background-color: rgba(255, 151, 0, 0.75);
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+}
+
+.mail:hover {
+    color: #FF9700;
+}
