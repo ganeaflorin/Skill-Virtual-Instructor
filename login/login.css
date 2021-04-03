@@ -111,7 +111,8 @@ form {
     text-decoration: none;
     color: white;
 }
-.forgot-password:hover{
+
+.forgot-password:hover {
     color: #151019;
     font-weight: 600;
 }
@@ -179,10 +180,27 @@ footer {
     height: 2.5em;
     margin-right: 1.5em;
 }
-.mail{
+
+.footer__icon-redirection:hover {
+    background-color: #FF9700;
+    border-radius: 50%;
+}
+
+.footer__icon-redirection-instagram {
+    height: 2.5em;
+    margin-right: 1.5em;
+}
+
+.footer__icon-redirection-instagram:hover {
+    background-color: #FF9700;
+    border-radius: 40%;
+}
+
+.mail {
     text-decoration: none;
     color: white;
 }
-.mail:hover{
-    color:#FF9700;
+
+.mail:hover {
+    color: #FF9700;
 }

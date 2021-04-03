@@ -119,6 +119,21 @@ footer {
     margin-right: 1.5em;
 }
 
+.footer__icon-redirection:hover {
+    background-color: #FF9700;
+    border-radius: 50%;
+}
+
+.footer__icon-redirection-instagram {
+    height: 2.5em;
+    margin-right: 1.5em;
+}
+
+.footer__icon-redirection-instagram:hover {
+    background-color: #FF9700;
+    border-radius: 40%;
+}
+
 .nav-button__anchor {
     text-decoration: none;
     color: #FFFFFF;
@@ -133,10 +148,12 @@ footer {
 .nav-button__anchor:hover {
     background-color: rgba(255, 151, 0, 0.75);
 }
-.mail{
+
+.mail {
     text-decoration: none;
     color: white;
 }
-.mail:hover{
-    color:#FF9700;
+
+.mail:hover {
+    color: #FF9700;
 }
