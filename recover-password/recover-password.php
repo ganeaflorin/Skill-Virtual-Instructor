@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkiVI - Login</title>
-    <link rel="stylesheet" href="recover-password.css">
+    <style> 
+    <?php include "recover-password.css" ?>
+    </style>
 </head>
 
 <body>

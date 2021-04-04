@@ -1,3 +1,6 @@
+<style> 
+<?php  include "footer.css" ?>
+</style>
 <footer>
         <div>
             <a href="https://www.facebook.com/flomaaan/"> <img class="footer__icon-redirection" src="../images/facebook.png" alt="Facebook"></a>

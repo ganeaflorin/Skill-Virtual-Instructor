@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkiVI - Your personal trainer</title>
-    <!-- <link rel="stylesheet" href="landing.css"> -->
     <style>
- <?php include "../landing/landing.css"; ?> 
-</style>
+        <?php include "../landing/landing.css"; ?>
+    </style>
 </head>
 
 <body>
-    
-    <?php 
+
+    <?php
     include("../repetitive/header.php");
     ?>
     <main>
@@ -73,7 +72,7 @@
         </div>
     </main>
 
-    <?php 
+    <?php
     include("../repetitive/footer.php");
     ?>
 </body>

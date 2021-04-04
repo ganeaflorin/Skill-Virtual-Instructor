@@ -1,3 +1,6 @@
+<style>
+<?php include "../repetitive/header.css"; ?> 
+</style>
 <header>
         <div class="logo">
             <a href="../landing/landing.php" class="logo__link">SkiVI </a>
@@ -13,7 +16,7 @@
                 <a href="../paths/paths.php" class="nav-button__anchor">Paths</a>
             </div>
             <div class="nav-button">
-                <a href="" class="nav-button__anchor">About</a>
+                <a href="../about/about.php" class="nav-button__anchor">About</a>
             </div>
         </nav>
     </header>
