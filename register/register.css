@@ -123,7 +123,7 @@ form {
     text-align: center;
     border: 1px solid #151019;
     padding: 1.2em 0.8em;
-    width: 12em;
+    width: 15em;
     outline: none;
     color: white;
     border-radius: 1.5em;
@@ -133,7 +133,7 @@ form {
 }
 
 .sign-up-btn:hover {
-    width: 15em;
+    width: 17em;
     background-color: #2ecc71;
     border: 1px solid #2ecc71;
 }
