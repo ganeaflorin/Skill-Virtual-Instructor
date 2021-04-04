@@ -59,7 +59,6 @@
     margin-top: 2em;
     margin-left: -4em;
     position: relative;
-    /* margin-right: 10em; */
 }
 
 .path-description-skivi {
@@ -112,6 +111,7 @@ main {
     height: 50%;
     width: 50%;
     border: 5px solid black;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -123,7 +123,6 @@ main {
     list-style-type: none;
     width: 10em;
     height: 10em;
-    /* align-self: flex-start; */
 }
 
 .contact-logos {
@@ -136,10 +135,8 @@ main {
 }
 
 .list-item-href:hover {
-    /* border: 1px solid #151019; */
     background-color: rgba(129, 88, 27, 0.1);
     border-radius: 10px;
-    /* color: black; */
 }
 
 .list-item {
