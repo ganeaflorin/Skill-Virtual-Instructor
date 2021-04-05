@@ -44,4 +44,68 @@
     
     .lesson {
         display: none;
+        margin-top: 2.5em;
+        background-color: #FF9700;
+        height: 20em;
+        width: 30em;
+        border-radius: 10px;
+    }
+    
+    .lesson__img {
+        height: 5em;
+        align-self: center;
+    }
+    
+    .lesson-container__step {
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        min-width: 100%;
+        transition: transform 1s cubic-bezier(0, 1.09, 0.45, 1.01);
+    }
+    
+    .lesson-container__step__indication {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lesson-btns {
+        align-self: center;
+        position: absolute;
+        bottom: 0;
+        left: 38%;
+        /* width: 100%; */
+    }
+    
+    .lesson-container {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        height: 95%;
+    }
+    
+    .pBtn,
+    .nBtn {
+        border-radius: 10px;
+        padding: 0.45em;
+        border: 0;
+        background: #151019;
+        text-align: center;
+        padding: 1em 0.8em;
+        width: 8em;
+        color: white;
+        border-radius: 1.5em;
+        transition: 0.25s;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .pBtn:hover {
+        width: 10em;
+        background-color: #3498DB;
+    }
+    
+    .nBtn:hover {
+        width: 10em;
+        background-color: #3498DB;
     }

@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <a href="" class="main__path-link">
+        <a href="../origami-path/origami.php" class="main__path-link">
             <div class="main__path-section">
                 <div class="path-description">
                     <h1>Origami</h1>
