@@ -1,0 +1,47 @@
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
+        /* height: 15em; */
+        justify-content: space-around;
+    }
+    
+    .path-presentation {
+        text-align: center;
+    }
+    
+    .lessons {
+        align-self: flex-start;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .lesson-title {
+        margin-bottom: 20%;
+        font-size: 140%;
+        list-style: none;
+    }
+    
+    .dropdown-button:hover,
+    .dropdown-button:focus {
+        background-color: #FF9700;
+        border-radius: 10px;
+        transform: scale(1.2);
+    }
+    
+    .dropdown-button {
+        background-color: transparent;
+        color: white;
+        font-size: 140%;
+        padding: 0;
+        display: block;
+        border: 0px;
+        cursor: pointer;
+        outline: none;
+        border-color: #151019;
+    }
+    
+    .lesson {
+        display: none;
+    }
