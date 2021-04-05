@@ -3,12 +3,12 @@
 </style>
 <header>
     <a href="../landing/landing.php">
-    <div class="logo">
-        <div class="head">
-            <div class="face">
-                <div class="eye"> </div>
-                <div class="eye"> </div>
-            </div>
+        <div class="logo">
+            <div class="head">
+                <div class="face">
+                    <div class="eye"> </div>
+                    <div class="eye"> </div>
+                </div>
             </div>
         </div>
     </a>
