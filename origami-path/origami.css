@@ -26,7 +26,7 @@
     .dropdown-button:hover,
     .dropdown-button:focus {
         background-color: #FF9700;
-        border-radius: 10px;
+        border-radius: 20px 20px 20px 10px;
         transform: scale(1.2);
         width: 6em;
         text-align: start;
@@ -50,7 +50,7 @@
         background-color: #FF9700;
         height: 20em;
         width: 30em;
-        border-radius: 10px;
+        border-radius: 10px 30px 30px 30px;
     }
     
     .lesson__img {

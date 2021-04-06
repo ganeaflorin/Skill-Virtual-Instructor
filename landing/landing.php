@@ -46,7 +46,7 @@
                         Paper is not only for boring bureaucracy stuff! Take IT to the next level.</p>
                 </div>
             </a>
-            <a href="" class="path__links">
+            <a href="../tie-knot-path/tie-knot.php" class="path__links">
 
                 <div class="path">
 
@@ -58,7 +58,7 @@
                     </p>
                 </div>
             </a>
-            <a href="" class="path__links">
+            <a href="../fast-meals-path/fast-meals.php" class="path__links">
                 <div class="path">
                     <h1 class="path__title">Fast meals</h1>
                     <img src="../images/meals.png" class="paths__image" alt="Meals">

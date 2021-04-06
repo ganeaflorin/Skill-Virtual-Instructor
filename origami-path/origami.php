@@ -489,9 +489,6 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
                     </div>
                 </li>
             </ul>
-
-<!-- //TODO: SPATII INTRE LESSONS  -->
-
         </div>
 
 
@@ -499,7 +496,6 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
 
     </main>
     <?php include("../repetitive/footer.php"); ?>
-    <!-- <script src="../origami-path/showContent.js"></script> -->
     <script src="../origami-path/carousel.js"></script>
 
 </body>

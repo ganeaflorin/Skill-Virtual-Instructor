@@ -48,7 +48,7 @@
 
             </div>
         </a>
-        <a href="" class="main__path-link">
+        <a href="../tie-knot-path/tie-knot.php" class="main__path-link">
             <div class="main__path-section"><img src="../images/tie.png" alt="tie-knot" class="path-image">
                 <div class="path-description">
                     <h1>Tie knot</h1>
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </a>
-        <a href="" class="main__path-link">
+        <a href="../fast-meals-path/fast-meals.php" class="main__path-link">
             <div class="main__path-section">
                 <div class="path-description">
                     <h1>Fast meals</h1>
