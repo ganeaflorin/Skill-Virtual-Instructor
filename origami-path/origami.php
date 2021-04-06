@@ -26,7 +26,7 @@
             <ul>
                 <li class="lesson-title">
                     <button id="0" onClick="showContent(this.id)" class="dropdown-button">
-                        1. Airplane🔻</button>
+                        1. Airplane</button>
                     <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
@@ -123,7 +123,7 @@
                 </li>
                 <li class="lesson-title">
                     <button id="1" onClick="showContent(this.id)" class="dropdown-button">
-                        2. Boat🔻</button>
+                        2. Boat </button>
                         <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
@@ -236,7 +236,7 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
 
                 <li class="lesson-title">
                     <button id="2" onClick="showContent(this.id)" class="dropdown-button">
-                        3. Tulip🔻</button>
+                        3. Tulip</button>
                         <div  class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
@@ -395,7 +395,7 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
                 </li>
                 <li class="lesson-title">
                     <button id="3" onClick="showContent(this.id)" class="dropdown-button">
-                        4. Tulip Stem🔻</button>
+                        4. Tulip Stem </button>
                         <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
