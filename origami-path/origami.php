@@ -242,83 +242,148 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>This is step1</p>
+                                    <p>Start with a square piece of origami paper with white side up. If you only have regular 8.5x11 paper, follow these instructions to make it into a square sheet.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip01.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the upper left corner to the lower right corner, then unfold.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip02.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the upper right corner to the lower left corner, then unfold.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip03.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the top half backwards, then unfold.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip04.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>This is step1</p>
+                                    <p>Poke the center of the paper to make it pop in.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip05.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>This is step1</p>
+                                    <p>Bring the left and right creases to the center and the paper should collapse into a triangle.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip06.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the left and right corners to the top corner.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip07.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>This is step1</p>
+                                    <p>Turn the figure over.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip08.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 9</h3>
-                                    <p>This is step1</p>
+                                    <p>Repeat step 7 on this side. Fold the side corners to the top corner.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip09.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 10</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold ONLY the top layer of the right side over to the left.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/tulip10.jpg" class="lesson__img">
                             </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 11</h3>
+                                    <p>Turn the figure over.</p>
+
+                                </div>
+                                <img src="../images/tulip11.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 12</h3>
+                                    <p>Once again, fold ONLY the top layer of the right side over to the left.</p>
+
+                                </div>
+                                <img src="../images/tulip12.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 13</h3>
+                                    <p>Using ONLY the top layers, insert the right flap all the way into the left flap.</p>
+
+                                </div>
+                                <img src="../images/tulip13.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 14</h3>
+                                    <p>Turn the figure over.</p>
+
+                                </div>
+                                <img src="../images/tulip14.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 15</h3>
+                                    <p>Once again like step 13, insert the right flap all the way into the left flap, then flatten.</p>
+
+                                </div>
+                                <img src="../images/tulip15.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 16</h3>
+                                    <p>Pick up the tulip from the bottom as seen in the picture and spread the flaps apart. This will make it easier for you to blow into it.</p>
+
+                                </div>
+                                <img src="../images/tulip16.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 17</h3>
+                                    <p>Blow into the bottom of the tulip and it should puff up.</p>
+
+                                </div>
+                                <img src="../images/tulip17.jpg" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Final Step</h3>
+                                    <p> Peel the petals down, but be careful not to loosen the flaps that you tucked earlier.</p>
+
+                                </div>
+                                <img src="../images/tulip18.jpg" class="lesson__img">
+                            </section>
+
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn" class="pBtn">Previous step </button>
 
@@ -330,88 +395,88 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
                 </li>
                 <li class="lesson-title">
                     <button id="3" onClick="showContent(this.id)" class="dropdown-button">
-                        4. Swan🔻</button>
+                        4. Tulip Stem🔻</button>
                         <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>This is step1</p>
+                                    <p>Start with a square piece of origami paper with white side up. If you only have regular 8.5x11 paper, follow these instructions to make it into a square sheet.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem01.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the left corner to the right corner, then unfold.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem02.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the upper left and right edges to the center.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem03.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the lower left and right edges to the center.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem04.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>This is step1</p>
+                                    <p>Once again, fold the lower left and right edges to the center.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem05.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>This is step1</p>
+                                    <p>Turn the figure over.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem06.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the bottom corner to the top corner.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem07.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the figure in half by folding the left side over to the right.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem08.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>This is step1</p>
+                                    <p>Peel the leaf (on the left side) back and outside reverse fold it.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem09.jpg" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
-                                    <h3>Step 10</h3>
-                                    <p>This is step1</p>
+                                    <h3>Final step</h3>
+                                    <p>Place the flower on top of the stem. Done!</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/stem10.jpg" class="lesson__img">
                             </section>
 
                             <div class="lesson-btns">
