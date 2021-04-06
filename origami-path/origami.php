@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkiVI - Origami</title>
     <style>
-        <?php include "origami.css"; ?>
+         <?php include "../repetitive/path-page.css"; ?>
     </style>
 
 </head>
@@ -497,7 +497,7 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
     </main>
     <?php include("../repetitive/footer.php"); ?>
 
-    <script src="../origami-path/carousel.js"></script>
+    <script src="../repetitive/carousel.js"></script>
 
 </body>
 
