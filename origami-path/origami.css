@@ -52,14 +52,17 @@
     }
     
     .lesson__img {
-        height: 5em;
+        height: 70%;
         align-self: center;
+        border:3px solid black;
+        border-radius: 10%;
+        margin-right: 5%;
     }
     
     .lesson-container__step {
         display: flex;
         height: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
         min-width: 100%;
         transition: transform 1s cubic-bezier(0, 1.09, 0.45, 1.01);
     }
@@ -67,6 +70,8 @@
     .lesson-container__step__indication {
         display: flex;
         flex-direction: column;
+        width: 50%;
+        margin-left: 5%;
     }
     
     .lesson-btns {
