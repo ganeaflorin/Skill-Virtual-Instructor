@@ -496,6 +496,7 @@ Open the bottom of the model. Look at the corners. Flatten and then insert the o
 
     </main>
     <?php include("../repetitive/footer.php"); ?>
+
     <script src="../origami-path/carousel.js"></script>
 
 </body>

@@ -26,90 +26,59 @@
             <ul>
                 <li class="lesson-title">
                     <button id="0" onClick="showContent(this.id)" class="dropdown-button">
-                        1. Airplane</button>
+                        1. Oriental </button>
                     <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>Start with a regular piece of rectangle paper that's 8.5 x 11.0 inches (215.9 x 279.4 mm).</p>
+                                    <p>Drape the tie around your collar with the seam facing inward and the thick end on your left, two or three inches lower than your desired finishing position.</p>
 
                                 </div>
-                                <img src="../images/origami1.png" class="lesson__img">
+                                <img src="../images/oriental1.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>Fold the left half to right to make a crease in the center.</p>
+                                    <p>Bring the thick end horizontally across the front of the narrow end, and then pass it back horizontally behind the narrow end.</p>
 
                                 </div>
-                                <img src="../images/airplane3.png" class="lesson__img">
+                                <img src="../images/oriental2.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>Fold both top corners to the center.</p>
+                                    <p>Pass the thick end again across the front of the knot from left to right.</p>
 
                                 </div>
-                                <img src="../images/airplane5.png" class="lesson__img">
+                                <img src="../images/oriental3.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>Fold the new left and right corners to the center.</p>
+                                    <p>Now pass the thick end again behind the knot horizontally from right to left.</p>
 
                                 </div>
-                                <img src="../images/airplane6.png" class="lesson__img">
+                                <img src="../images/oriental4.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Fold plane in half from right to left.</p>
+                                    <p>Pass the thick end AGAIN across the front of the knot from left to right. Slip a finger under this third horizontal loop.
+                                        Bring the tip of the thick end up underneath the loop around your collar and feed it up behind the knot, down over the front of the knot and through that third horizontal loop.</p>
 
                                 </div>
-                                <img src="../images/airplane7.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 6</h3>
-                                    <p>Now fold the left edge to the right to form the wing. Use your fingernail to help make the tip as pointy as possible.</p>
-
-                                </div>
-                                <img src="../images/airplane8.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 7</h3>
-                                    <p>Fold other wing to line up with the first wing.</p>
-
-                                </div>
-                                <img src="../images/airplane10.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 8</h3>
-                                    <p> Unfold the wings.</p>
-
-                                </div>
-                                <img src="../images/airplane11.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 9</h3>
-                                    <p>Make sure the wings are tilted up a bit.</p>
-
-                                </div>
-                                <img src="../images/airplane12.png" class="lesson__img">
+                                <img src="../images/oriental5.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Final step!</h3>
-                                    <p>That's all! Now, you can enjoy your aiplane.</p>
+                                    <p>Pull the thick end through the horizontal loop and snug it down.
+                                        Adjust the tie by holding the knot in one hand and pulling gently on the narrow end with the other.</p>
 
                                 </div>
-                                <img src="../images/airplane-final.png" class="lesson__img">
+                                <img src="../images/oriental6.png" class="lesson__img">
                             </section>
-
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn" class="pBtn">Previous step </button>
 
@@ -123,106 +92,67 @@
                 </li>
                 <li class="lesson-title">
                     <button id="1" onClick="showContent(this.id)" class="dropdown-button">
-                        2. Boat </button>
+                        2. Four in Hand </button>
                     <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>Start with your rectangular paper, orient it vertically, with the long edges going up and down. </p>
+                                    <p>Loop the tie around your collar. Thick end on the left, 3-4 inches lower than the thin end. </p>
 
                                 </div>
-                                <img src="../images/boat1.png" class="lesson__img">
+                                <img src="../images/4inhand1.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>Fold the bottom half up to the top.Fold the bottom right corner over to the left corner and make a small pinch, just enough to crease the paper. Open it back up.</p>
+                                    <p>Cross the thick end in front of the thin end.</p>
 
                                 </div>
-                                <img src="../images/boat2.png" class="lesson__img">
+                                <img src="../images/4inhand2.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>Using the crease as a guide, fold the left and right bottom corners up and to the middle. Flatten the folded pieces down.</p>
+                                    <p>Wrap the thick end around behind the thin end and cross horizontally from right to left.</p>
 
                                 </div>
-                                <img src="../images/boat3.png" class="lesson__img">
+                                <img src="../images/4inhand3.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>Rotate the paper. Fold one layer from the bottom up along the bottom of the front flaps.</p>
+                                    <p>Bring the thick end horizontally across the front of the knot from right to left. Slip a finger beneath this horizontal band.</p>
 
                                 </div>
-                                <img src="../images/boat4.png" class="lesson__img">
+                                <img src="../images/4inhand4.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Flip the paper over to the other side. Fold the bottom edge up in the same way.</p>
+                                    <p>Turn the tip of the thick end upward and in, sliding it beneath the loop around your neck.</p>
 
                                 </div>
-                                <img src="../images/boat5.png" class="lesson__img">
+                                <img src="../images/4inhand5.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>Unfold, and then fold the bottom right corner in along the crease you made. Repeat on the bottom left flap.</p>
+                                    <p>Feed the thick end down through the loop you’ve held open with your finger.</p>
 
                                 </div>
-                                <img src="../images/boat6.png" class="lesson__img">
+                                <img src="../images/4inhand6.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>Re-fold the bottom edge back up.</p>
+                                    <p>Pull the thick end all the way through the loop and snug the knot down tightly.
+                                        Tighten the knot by holding it gently in one hand and tugging on the thin end with the other.</p>
 
                                 </div>
-                                <img src="../images/boat7.png" class="lesson__img">
+                                <img src="../images/4inhand7.png" class="lesson__img">
                             </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 8</h3>
-                                    <p>
-                                        Open the bottom of the model. Look at the corners. Flatten and then insert the overlapping flap on the left underneath the right section.</p>
 
-                                </div>
-                                <img src="../images/boat8.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 9</h3>
-                                    <p>Fold one layer up to the top. Repeat on the back.</p>
-
-                                </div>
-                                <img src="../images/boat9.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 10</h3>
-                                    <p>Open the bottom of the model.</p>
-
-                                </div>
-                                <img src="../images/boat10.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 11</h3>
-                                    <p>Pull apart the left and right flaps. Flatten it out, in the shape of a boat.</p>
-
-                                </div>
-                                <img src="../images/boat11.png" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Final step!</h3>
-                                    <p>Open it slightly. The triangle in the middle resembles a sail.</p>
-
-                                </div>
-                                <img src="../images/boat12.png" class="lesson__img">
-                            </section>
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn" class="pBtn">Previous step </button>
 
@@ -236,153 +166,76 @@
 
                 <li class="lesson-title">
                     <button id="2" onClick="showContent(this.id)" class="dropdown-button">
-                        3. Tulip</button>
+                        3. Half Windsor</button>
                     <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>Start with a square piece of origami paper with white side up. If you only have regular 8.5x11 paper, follow these instructions to make it into a square sheet.</p>
+                                    <p>Drape the necktie around your collar with the wide end on your right hanging down to your thigh and the thin end on the left at about your rib cage.</p>
 
                                 </div>
-                                <img src="../images/tulip01.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor1.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>Fold the upper left corner to the lower right corner, then unfold.</p>
+                                    <p>Cross the wide end in front of the thin end from right to left, making an X-shape below your chin.</p>
 
                                 </div>
-                                <img src="../images/tulip02.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor2.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>Fold the upper right corner to the lower left corner, then unfold.</p>
+                                    <p>Loop the wide end of the tie horizontally around and behind the thin end.</p>
 
                                 </div>
-                                <img src="../images/tulip03.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor3.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>Fold the top half backwards, then unfold.</p>
+                                    <p>Take the wide end over from the top and through the opening of the X and pull tight.
+                                    </p>
 
                                 </div>
-                                <img src="../images/tulip04.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor4.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Poke the center of the paper to make it pop in.</p>
+                                    <p>Hold the wide end with your right hand and wrap it in front over the thin end, from your right to your left.</p>
 
                                 </div>
-                                <img src="../images/tulip05.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor5.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>Bring the left and right creases to the center and the paper should collapse into a triangle.</p>
+                                    <p>Keeping the triangle intact with your left hand, bring the wide end towards your chest and from behind the loop, pass it over the X.
+                                    </p>
 
                                 </div>
-                                <img src="../images/tulip06.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor6.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>Fold the left and right corners to the top corner.</p>
+                                    <p>Using the index finger of your left hand, open up the triangle that has now formed over the X and pull the wide end all the way through.</p>
 
                                 </div>
-                                <img src="../images/tulip07.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor7.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>Turn the figure over.</p>
+                                    <p>TTo adjust the length, pull the knot up towards your collar while pulling the thin end of the tie down. You may need to adjust the horizontal loop to make sure it’s flat and even.</p>
 
                                 </div>
-                                <img src="../images/tulip08.jpg" class="lesson__img">
+                                <img src="../images/halfwindsor8.png" class="lesson__img">
                             </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 9</h3>
-                                    <p>Repeat step 7 on this side. Fold the side corners to the top corner.</p>
 
-                                </div>
-                                <img src="../images/tulip09.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 10</h3>
-                                    <p>Fold ONLY the top layer of the right side over to the left.</p>
-
-                                </div>
-                                <img src="../images/tulip10.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 11</h3>
-                                    <p>Turn the figure over.</p>
-
-                                </div>
-                                <img src="../images/tulip11.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 12</h3>
-                                    <p>Once again, fold ONLY the top layer of the right side over to the left.</p>
-
-                                </div>
-                                <img src="../images/tulip12.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 13</h3>
-                                    <p>Using ONLY the top layers, insert the right flap all the way into the left flap.</p>
-
-                                </div>
-                                <img src="../images/tulip13.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 14</h3>
-                                    <p>Turn the figure over.</p>
-
-                                </div>
-                                <img src="../images/tulip14.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 15</h3>
-                                    <p>Once again like step 13, insert the right flap all the way into the left flap, then flatten.</p>
-
-                                </div>
-                                <img src="../images/tulip15.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 16</h3>
-                                    <p>Pick up the tulip from the bottom as seen in the picture and spread the flaps apart. This will make it easier for you to blow into it.</p>
-
-                                </div>
-                                <img src="../images/tulip16.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Step 17</h3>
-                                    <p>Blow into the bottom of the tulip and it should puff up.</p>
-
-                                </div>
-                                <img src="../images/tulip17.jpg" class="lesson__img">
-                            </section>
-                            <section class="lesson-container__step">
-                                <div class="lesson-container__step__indication">
-                                    <h3>Final Step</h3>
-                                    <p> Peel the petals down, but be careful not to loosen the flaps that you tucked earlier.</p>
-
-                                </div>
-                                <img src="../images/tulip18.jpg" class="lesson__img">
-                            </section>
 
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn" class="pBtn">Previous step </button>
@@ -395,90 +248,105 @@
                 </li>
                 <li class="lesson-title">
                     <button id="3" onClick="showContent(this.id)" class="dropdown-button">
-                        4. Tulip Stem </button>
+                        4. Full Windsor </button>
                     <div class="lesson">
                         <div class="lesson-container">
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>Start with a square piece of origami paper with white side up. If you only have regular 8.5x11 paper, follow these instructions to make it into a square sheet.</p>
+                                    <p>Drape the necktie around your collar with the wide end on the right hanging 4-6 inches lower than your waistband.</p>
 
                                 </div>
-                                <img src="../images/stem01.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor1.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>Fold the left corner to the right corner, then unfold.</p>
+                                    <p>Cross the wide end horizontally in front of the slim end, making an X-shape just below your chin.</p>
 
                                 </div>
-                                <img src="../images/stem02.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor2.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>Fold the upper left and right edges to the center.</p>
+                                    <p>Tuck the wide end up and beneath the loop around your neck, coming out point-upward behind the X. Use one finger to hold the X in place.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem03.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor3.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>Fold the lower left and right edges to the center.</p>
+                                    <p>Pull the wide end all the way down.</p>
 
                                 </div>
-                                <img src="../images/stem04.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor4.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Once again, fold the lower left and right edges to the center.</p>
+                                    <p>Bring the wide end around behind the knot and pass it horizontally from right to left.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem05.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor5.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>Turn the figure over.</p>
+                                    <p>Flip the wide end tip upward and tug it diagonally across the front of the knot.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem06.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor6.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>Fold the bottom corner to the top corner.</p>
+                                    <p>Loop the wide end over the top of the loop around your collar and bring it back down. It should emerge on the left of the thin end.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem07.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor7.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>Fold the figure in half by folding the left side over to the right.</p>
+                                    <p>Bring the wide end horizontally across the front of the knot, from left to right. This forms a horizontal band. Tuck a finger through it and hold it in place.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem08.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor8.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
-                                    <h3>Step 8</h3>
-                                    <p>Peel the leaf (on the left side) back and outside reverse fold it.</p>
+                                    <h3>Step 9</h3>
+                                    <p>Bring the wide end underneath the loop one more time, around the collar with the tip aiming upward.
+                                    </p>
 
                                 </div>
-                                <img src="../images/stem09.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor9.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
-                                    <h3>Final step</h3>
-                                    <p>Place the flower on top of the stem. Done!</p>
+                                    <h3>Step 10</h3>
+                                    <p>Turn the wide end downward and slide the tip through the horizontal loop you saved with your finger in step 8.</p>
 
                                 </div>
-                                <img src="../images/stem10.jpg" class="lesson__img">
+                                <img src="../images/fullwindsor10.png" class="lesson__img">
                             </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Final Step!</h3>
+                                    <p>Pull the wide end all the way down and smooth out any creases or slack in the knot.
 
+                                    </p>
+
+                                </div>
+                                <img src="../images/fullwindsor11.png" class="lesson__img">
+                            </section>
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn" class="pBtn ungabunga">Previous step </button>
 
