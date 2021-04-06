@@ -129,84 +129,100 @@
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 1</h3>
-                                    <p>This is step1</p>
+                                    <p>Start with your rectangular paper, orient it vertically, with the long edges going up and down. </p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat1.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 2</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold the bottom half up to the top.Fold the bottom right corner over to the left corner and make a small pinch, just enough to crease the paper. Open it back up.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat2.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 3</h3>
-                                    <p>This is step1</p>
+                                    <p>Using the crease as a guide, fold the left and right bottom corners up and to the middle. Flatten the folded pieces down.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat3.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 4</h3>
-                                    <p>This is step1</p>
+                                    <p>Rotate the paper. Fold one layer from the bottom up along the bottom of the front flaps.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat4.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>This is step1</p>
+                                    <p>Flip the paper over to the other side. Fold the bottom edge up in the same way.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat5.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 6</h3>
-                                    <p>This is step1</p>
+                                    <p>Unfold, and then fold the bottom right corner in along the crease you made. Repeat on the bottom left flap.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat6.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 7</h3>
-                                    <p>This is step1</p>
+                                    <p>Re-fold the bottom edge back up.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat7.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 8</h3>
-                                    <p>This is step1</p>
+                                    <p>
+Open the bottom of the model. Look at the corners. Flatten and then insert the overlapping flap on the left underneath the right section.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat8.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 9</h3>
-                                    <p>This is step1</p>
+                                    <p>Fold one layer up to the top. Repeat on the back.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat9.png" class="lesson__img">
                             </section>
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 10</h3>
-                                    <p>This is step1</p>
+                                    <p>Open the bottom of the model.</p>
 
                                 </div>
-                                <img src="../images/facebook.png" class="lesson__img">
+                                <img src="../images/boat10.png" class="lesson__img">
                             </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Step 11</h3>
+                                    <p>Pull apart the left and right flaps. Flatten it out, in the shape of a boat.</p>
 
+                                </div>
+                                <img src="../images/boat11.png" class="lesson__img">
+                            </section>
+                            <section class="lesson-container__step">
+                                <div class="lesson-container__step__indication">
+                                    <h3>Final step!</h3>
+                                    <p>Open it slightly. The triangle in the middle resembles a sail.</p>
+
+                                </div>
+                                <img src="../images/boat12.png" class="lesson__img">
+                            </section>
                             <div class="lesson-btns">
                                 <button type="button" id="prevBtn"  class="pBtn">Previous step </button>
 

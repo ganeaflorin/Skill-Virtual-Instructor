@@ -54,9 +54,11 @@
     .lesson__img {
         height: 70%;
         align-self: center;
-        border:3px solid black;
+        border: 3px solid black;
         border-radius: 10%;
         margin-right: 5%;
+        /* object-fit: contain; */
+        max-width: 50%;
     }
     
     .lesson-container__step {
@@ -72,6 +74,8 @@
         flex-direction: column;
         width: 50%;
         margin-left: 5%;
+        text-align: center;
+        margin-right: 5%;
     }
     
     .lesson-btns {
