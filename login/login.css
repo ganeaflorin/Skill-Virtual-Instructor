@@ -41,7 +41,7 @@ form {
 }
 
 .form-field:focus {
-    outline: none;
+    outline: #3498DB;
     border: 3px solid #3498DB;
     width: 24em;
 }
@@ -109,4 +109,28 @@ form {
 
 .sign-up-text {
     font-size: 1.2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .login-form {
+        max-width: 90%;
+    }
+    .form-field {
+        width: 90%;
+    }
+    .form-field:focus {
+        width: 90%;
+    }
+    .login-form__checkers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .forgot-password {
+        margin-top: 1em;
+    }
+    .login-btn,
+    .sign-up-btn {
+        max-width: 80%;
+    }
 }

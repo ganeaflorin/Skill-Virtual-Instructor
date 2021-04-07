@@ -107,3 +107,19 @@ form {
 .sign-up-text {
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 550px) {
+    .login-form {
+        max-width: 90%;
+    }
+    .form-field {
+        width: 90%;
+    }
+    .form-field:focus {
+        width: 90%;
+    }
+    .login-btn,
+    .sign-up-btn {
+        max-width: 80%;
+    }
+}

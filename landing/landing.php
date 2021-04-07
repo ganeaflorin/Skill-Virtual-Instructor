@@ -36,19 +36,19 @@
             </div>
         </div>
         <div class="paths">
-            <a href="../origami-path/origami.php" class="path__links">
-                <div class="path">
+            <div class="path">
+                    <a href="../origami-path/origami.php" class="path__links">
                     <h1 class="path__title">Origami</h1>
 
                     <img src="../images/origami.png" class="paths__image" alt="Origami">
 
                     <p class="path__description">
                         Paper is not only for boring bureaucracy stuff! Take IT to the next level.</p>
+                    </a>
                 </div>
-            </a>
-            <a href="../tie-knot-path/tie-knot.php" class="path__links">
-
+                
                 <div class="path">
+                    <a href="../tie-knot-path/tie-knot.php" class="path__links">
 
                     <h1 class="path__title">Tie knot</h1>
                     <img src="../images/tie.png" class="paths__image" alt="Tie-knot">
@@ -56,10 +56,10 @@
                     <p class="path__description">
                         Stop begging your wife for it! You're a big boy, tie your knot by yourself.
                     </p>
+                </a>
                 </div>
-            </a>
-            <a href="../fast-meals-path/fast-meals.php" class="path__links">
                 <div class="path">
+                    <a href="../fast-meals-path/fast-meals.php" class="path__links">
                     <h1 class="path__title">Fast meals</h1>
                     <img src="../images/meals.png" class="paths__image" alt="Meals">
 
@@ -67,8 +67,8 @@
                         Don't ever eat junk food again. Learn how to cook simple and yuumy meals.
 
                     </p>
+                </a>
                 </div>
-            </a>
         </div>
     </main>
 

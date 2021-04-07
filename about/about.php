@@ -14,7 +14,7 @@
     <?php include("../repetitive/header.php") ?>
     <main>
         <section>
-            <div class="main__path-section main__path-section-skivi">
+            <div class="main__path-section">
                 <div class="robot">
                     <div class="head">
                         <div class="face">
@@ -27,7 +27,7 @@
                     <div class="left-arm"></div>
                     <div class="right-arm"></div>
                 </div>
-                <div class="path-description path-description-skivi">
+                <div class="path-description">
                     <h1>SkiVI - how did it land on Earth </h1>
                     <p> SkiVI was created by two students enrolled
                         in the 2nd year of Faculty of Computer Science Iasi.
@@ -106,6 +106,7 @@
 
     </main>
     <?php include("../repetitive/footer.php") ?>
+    <script src="../repetitive/nav-dropdown.js"> </script>
 </body>
 
 </html>
