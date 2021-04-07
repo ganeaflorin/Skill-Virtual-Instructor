@@ -31,7 +31,7 @@
             <a href="../login/login.php" class="nav-button__anchor">Login</a>
         </div>
         <div class="nav-button">
-            <a href="../register/register.php" class="nav-button__anchor">Signup</a>
+            <a href="../register/register.php" class="nav-button__anchor">SignUp</a>
         </div>
         <div class="nav-button">
             <a href="../paths/paths.php" class="nav-button__anchor">Paths</a>
