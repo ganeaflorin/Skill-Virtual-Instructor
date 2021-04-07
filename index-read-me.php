@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SkiVI - Your personal trainer</title>
     <style>
-        <?php include "../landing/landing.css"; ?>
+        <?php include "landing/landing.css"; ?>
     </style>
 </head>
 
