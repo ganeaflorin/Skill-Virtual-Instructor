@@ -33,7 +33,7 @@
                 <button type="submit" name="login" class="login-btn">LOGIN</button>
             </form>
             <p class="sign-up-text">If you haven't met SkiVI yet, please sign up:</p>
-            <a href="/register/register.html" class="sign-up-btn">SIGN UP</a>
+            <a href="../register/register.php" class="sign-up-btn">SIGN UP</a>
         </div>
 
     </main>

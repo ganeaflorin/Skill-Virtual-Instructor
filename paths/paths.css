@@ -43,6 +43,7 @@ main {
 }
 
 .main__path-section:hover {
+    background-color: rgb(255, 151, 0);
     background-color: rgba(255, 151, 0, 0.75);
 }
 
@@ -71,7 +72,7 @@ main {
 
 .face {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 6em;
     height: 3em;
     background-color: #151019;

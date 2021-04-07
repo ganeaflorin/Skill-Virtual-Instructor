@@ -19,7 +19,7 @@
 
 .face {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 6em;
     height: 3em;
     background-color: #151019;
@@ -118,7 +118,7 @@ main {
 .unordered-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 1.5em;
     list-style-type: none;
     width: 10em;
@@ -129,17 +129,15 @@ main {
     height: 2em;
 }
 
-.list-item-href {
-    text-decoration: none;
-    color: white;
-}
-
-.list-item-href:hover {
+.list-item:hover {
+    background-color: rgb(65, 54, 38);
     background-color: rgba(129, 88, 27, 0.1);
     border-radius: 10px;
 }
 
-.list-item {
+.list-item-href {
+    color: white;
+    text-decoration: none;
     justify-content: space-between;
     display: flex;
     align-items: center;

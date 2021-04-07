@@ -33,18 +33,17 @@ form {
     display: block;
     margin: 2em auto;
     text-align: center;
-    border: 1px solid #151019;
     padding: 1.5em 0.8em;
     width: 20em;
-    outline: none;
     color: white;
     border-radius: 1.5em;
     transition: 0.25s;
 }
 
 .form-field:focus {
-    width: 24em;
+    outline: none;
     border: 3px solid #3498DB;
+    width: 24em;
 }
 
 .login-form__checkers {
@@ -68,10 +67,8 @@ form {
     display: block;
     margin: 2em auto;
     text-align: center;
-    border: 1px solid #151019;
     padding: 1.5em 0.8em;
     width: 15em;
-    outline: none;
     color: white;
     border-radius: 1.5em;
     transition: 0.25s;
@@ -84,19 +81,21 @@ form {
     background-color: #3498DB;
 }
 
+.login-btn:focus,
+.sign-up-btn:focus {
+    outline: #3498DB;
+    background-color: #3498DB;
+}
+
 .sign-up-btn {
     text-decoration: none;
-    color: #FFFFFF;
-    border-radius: 10px;
     padding: 0.45em;
     border: 0;
     background: #151019;
     display: block;
     text-align: center;
-    border: 1px solid #151019;
     padding: 1em 0.8em;
     width: 8em;
-    outline: none;
     color: white;
     border-radius: 1.5em;
     transition: 0.25s;
@@ -106,7 +105,6 @@ form {
 .sign-up-btn:hover {
     width: 10em;
     background-color: #3498DB;
-    border: 1px solid #3498DB;
 }
 
 .sign-up-text {

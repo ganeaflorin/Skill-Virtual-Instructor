@@ -26,7 +26,7 @@
                 <button type="submit" name="signup" class="sign-up-btn">SIGN UP</button>
             </form>
             <p class="sign-up-text">Already friends with SkiVI?</p>
-            <a href="/login/login.html" class="login-btn">LOGIN</a>
+            <a href="../login/login.php" class="login-btn">LOGIN</a>
         </div>
     </main>
 

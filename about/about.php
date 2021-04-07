@@ -46,60 +46,60 @@
                 <h1>Ganea Florin</h1>
                 <img src="../images/flo.jpg" alt="one of the creators, Ganea Florin" class="our-presentation__div__image">
                 <ul class="unordered-list">
-                    <a href="https://www.facebook.com/flomaaan/"  class="list-item-href">
-                        <li class="list-item">
+                    <li class="list-item">
+                            <a href="https://www.facebook.com/flomaaan/"  class="list-item-href">
                             <img src="../images/facebook.png" alt="facebook logo" class="contact-logos">
                             Facebook
+                        </a>
                         </li>
-                    </a>
-                    <a href="https://github.com/ganeaflorin" class="list-item-href">
                         <li class="list-item" >
+                            <a href="https://github.com/ganeaflorin" class="list-item-href">
                             <img src="../images/github.png" alt="github logo" class="contact-logos">
                             GitHub
+                        </a>
                         </li>
-                    </a>
-                    <a href="mailto:ganeafloman@gmail.com"  class="list-item-href">
-                        <li class="list-item">
+                    <li class="list-item">
+                            <a href="mailto:ganeafloman@gmail.com"  class="list-item-href">
                             <img src="../images/mail.png" alt="mail logo" class="contact-logos">
                             Mail
+                        </a>
                         </li>
-                    </a>
-                    <a href="https://www.goodreads.com/user/show/101472556-florin-ganea"  class="list-item-href">
                         <li class="list-item">
+                            <a href="https://www.goodreads.com/user/show/101472556-florin-ganea"  class="list-item-href">
                             <img src="../images/goodreads.png" alt="goodreads logo" class="contact-logos">
                             Goodreads
+                        </a>
                         </li>
-                    </a>
-                </ul>
+                    </ul>
             </div>
             <div class="our-presentation__div">
                 <h1>Iosub Ovidiu Marian</h1>
                 <img src="../images/mosu.jpg" alt="one of the creators, Iosub Ovidiu Marian" class="our-presentation__div__image">
                 <ul class="unordered-list">
-                    <a href="https://www.facebook.com/ovidiu.marean2/"  class="list-item-href">
-                        <li class="list-item">
+                    <li class="list-item">
+                            <a href="https://www.facebook.com/ovidiu.marean2/"  class="list-item-href">
                             <img src="../images/facebook.png" alt="facebook logo" class="contact-logos">
                             Facebook
+                        </a>
                         </li>
-                    </a>
-                    <a href="https://github.com/MarianIosub" class="list-item-href">
                         <li class="list-item">
+                            <a href="https://github.com/MarianIosub" class="list-item-href">
                             <img src="../images/github.png" alt="github logo" class="contact-logos">
                             GitHub
+                        </a>
                         </li>
-                    </a>
-                    <a href="mailto:iosubmarian2000@gmail.com"  class="list-item-href">
                         <li class="list-item">
+                            <a href="mailto:iosubmarian2000@gmail.com"  class="list-item-href">
                             <img src="../images/mail.png" alt="mail logo" class="contact-logos">
                             Mail
+                        </a>
                         </li>
-                    </a>
-                    <a href="https://www.instagram.com/ovidiu.marian1/"  class="list-item-href">
                         <li class="list-item">
+                            <a href="https://www.instagram.com/ovidiu.marian1/"  class="list-item-href">
                             <img src="../images/instagram.png" alt="instagram logo" class="contact-logos">
                             Instagram
+                        </a>
                         </li>
-                    </a>
                 </ul>
             </div>
         </section>

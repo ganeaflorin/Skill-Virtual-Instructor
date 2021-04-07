@@ -25,19 +25,12 @@ header {
 }
 
 .nav-button__anchor:hover {
+    background-color: rgb(255, 151, 0);
     background-color: rgba(255, 151, 0, 0.75);
 }
 
 .logo__image {
     height: 5em;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 7em;
-    border-bottom: 1px solid black;
 }
 
 .logo__link {
@@ -86,7 +79,7 @@ nav {
 
 .face {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 6em;
     height: 3em;
     background-color: #151019;

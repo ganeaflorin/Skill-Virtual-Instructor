@@ -35,10 +35,8 @@ main {
     display: block;
     margin: 2em auto;
     text-align: center;
-    border: 1px solid #151019;
     padding: 1.5em 0.8em;
     width: 11em;
-    outline: none;
     color: white;
     border-radius: 1.5em;
     transition: 0.25s;
@@ -47,6 +45,12 @@ main {
 
 .change-pass-href {
     text-decoration: none;
+}
+
+.change-avatar:focus,
+.change-pass:focus {
+    outline: #3498DB;
+    background-color: #3498DB;
 }
 
 .change-avatar:hover,
@@ -83,7 +87,7 @@ main {
     text-align: center;
     background-color: #151019;
     border-radius: 20px;
-    padding: 0em 1em 1em 1em;
+    padding: 0 1em 1em 1em;
 }
 
 .skill__bar {

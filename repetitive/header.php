@@ -1,6 +1,10 @@
-<style>
-    <?php include "../repetitive/header.css"; ?>
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        <?php include "../repetitive/header.css"; ?>
+    </style>
+</head>
 <header>
     <a href="../landing/landing.php">
         <div class="logo">

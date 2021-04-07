@@ -30,6 +30,7 @@
         transform: scale(1.2);
         width: 7em;
         text-align: start;
+        outline: #FF9700;
     }
     
     .dropdown-button {
@@ -38,9 +39,8 @@
         font-size: 140%;
         padding: 0;
         display: block;
-        border: 0px;
+        border: 0;
         cursor: pointer;
-        outline: none;
         border-color: #151019;
     }
     
@@ -59,7 +59,6 @@
         border: 3px solid black;
         border-radius: 10%;
         margin-right: 5%;
-        /* object-fit: contain; */
         max-width: 50%;
     }
     
@@ -97,8 +96,6 @@
     
     .pBtn,
     .nBtn {
-        border-radius: 10px;
-        padding: 0.45em;
         border: 0;
         background: #151019;
         text-align: center;
@@ -108,7 +105,11 @@
         border-radius: 1.5em;
         transition: 0.25s;
         cursor: pointer;
-        outline: none;
+    }
+    
+    .nBtn:focus,
+    .pBtn:focus {
+        outline: #3498DB;
     }
     
     .pBtn:hover {
