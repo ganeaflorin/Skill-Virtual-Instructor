@@ -106,7 +106,6 @@
 
     </main>
     <?php include("../repetitive/footer.php") ?>
-    <script src="../repetitive/nav-dropdown.js"> </script>
 </body>
 
 </html>

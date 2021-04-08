@@ -112,9 +112,55 @@ main {
     margin-top: 2em;
     margin-left: -4em;
     position: relative;
-    /* margin-right: 10em; */
 }
 
 .path-description-skivi {
     margin-left: 4em;
+}
+
+@media screen and (max-width: 1000px) {
+    .main__path-section {
+        width: 90%;
+        height: 25%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8%;
+    }
+    .main__path-section-skivi,
+    .main__path-link {
+        /* margin-left: 155%; */
+        width: 90%;
+    }
+    main {
+        height: 150%;
+    }
+    .main__path-section,
+    .path-description,
+    .main__path-link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main__path-section-skivi {
+        width: 80%;
+    }
+    .path-image,
+    .path-image:nth-child(2n) {
+        max-width: 90%;
+        max-height: 90%;
+        margin-left: 2em;
+        margin-right: 2em;
+        object-fit: contain;
+    }
+    .robot {
+        transform: scale(0.7);
+        margin-right: 2em;
+    }
+    .path-description,
+    .path-description:nth-child(2n+1) {
+        text-align: center;
+        margin-left: 0;
+    }
+    h1 {
+        text-align: center;
+    }
 }

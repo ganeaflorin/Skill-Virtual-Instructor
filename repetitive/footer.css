@@ -34,3 +34,12 @@ footer {
 .mail:hover {
     color: #FF9700;
 }
+
+@media screen and (max-width: 560px) {
+    .contact {
+        display: none;
+    }
+    footer {
+        height: 5em;
+    }
+}

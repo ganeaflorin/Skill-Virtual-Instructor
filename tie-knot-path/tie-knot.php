@@ -64,8 +64,8 @@
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Pass the thick end AGAIN across the front of the knot from left to right. Slip a finger under this third horizontal loop.
-                                        Bring the tip of the thick end up underneath the loop around your collar and feed it up behind the knot, down over the front of the knot and through that third horizontal loop.</p>
+                                    <p>Pass the thick end AGAIN across the front of the knot from left to right. 
+                                        Bring the tip of the thick end up under the loop feed it up behind the knot through that third horizontal loop.</p>
 
                                 </div>
                                 <img src="../images/oriental5.png" class="lesson__img" alt="">
