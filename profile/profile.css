@@ -121,3 +121,48 @@ main {
 .meals-progress {
     width: 10%;
 }
+
+@media screen and (max-width:1000px){
+        .profile{
+            max-width: 80%;
+            margin-right: 5%;
+            margin-left:5%;
+            height:80%;
+        }
+        .profile__infos{
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .profile__infos__credentials__field{
+            max-width: 70%;
+            margin-bottom: 5%;
+            align-self: center;
+            text-align: center;
+            font-size: 150%;
+        }
+        .user-avatar{
+            object-fit: cover;
+            max-width: 80%;
+            height: 80%;
+            margin-top: 5%;
+        }
+        .profile__skills{
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .skill{
+            margin-top: 1.5%;
+            margin-bottom: 1.5%;
+            width: 60%;
+            height: 20%;
+        }
+        .skill__bar{
+            width: 100%;
+        }
+}
+@media screen and (max-width:400px){
+    .profile__infos__credentials__field{
+        font-size: 100%;
+    }
+}
