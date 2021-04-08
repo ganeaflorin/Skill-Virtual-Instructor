@@ -31,7 +31,7 @@ main {
 .change-avatar,
 .change-pass {
     border: 0;
-    background: #151019;
+    background: #3498DB;
     display: block;
     margin: 2em auto;
     text-align: center;
@@ -49,14 +49,14 @@ main {
 
 .change-avatar:focus,
 .change-pass:focus {
-    outline: #3498DB;
-    background-color: #3498DB;
+    outline: #2ecc71;
+    background-color: #2ecc71;
 }
 
 .change-avatar:hover,
 .change-pass:hover {
     width: 13em;
-    background-color: #3498DB;
+    background-color: #2ecc71;
 }
 
 .profile__infos {

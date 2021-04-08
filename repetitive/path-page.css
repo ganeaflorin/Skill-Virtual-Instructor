@@ -3,7 +3,6 @@
         flex-direction: column;
         align-items: center;
         font-size: x-large;
-        /* height: 15em; */
         justify-content: space-around;
     }
     
@@ -54,12 +53,12 @@
     }
     
     .lesson__img {
-        height: 70%;
+        height: 120%;
+        margin-top: 20%;
         align-self: center;
         border: 3px solid black;
         border-radius: 10%;
         margin-right: 5%;
-        max-width: 50%;
     }
     
     .lesson-container__step {
@@ -82,8 +81,8 @@
     .lesson-btns {
         max-width: 30em;
         position: absolute;
-        bottom: 0;
-        left: 35%;
+        bottom: 5%;
+        left: 38%;
     }
     
     .lesson-container {
@@ -120,54 +119,108 @@
         width: 10em;
         background-color: #3498DB;
     }
-    
-    @media screen and (max-width: 1400px) {
-        .lessons {
+
+    @media screen and (max-width:1400px) {
+        main{
+            align-items: flex-start;
+        }
+        .path-presentation{
             align-self: center;
-            max-width: 90%;
-            margin-left: auto;
-            margin-right: auto;
         }
-        .lesson-title {
+        .lessons{
+            margin-left:5%;
+        }
+    }
+    @media screen and (max-width:1150px){
+        .lesson-title{
             font-size: 100%;
-            text-align: center;
         }
-        .dropdown-button:focus {
-            text-align: left;
-            transform: none;
-            background-color: none;
-            width: auto;
+        .lesson-btns{
+            left:30%;
         }
-        .lesson {
-            max-width: 90%;
-            height: 30em;
-        }
-        .lesson-btns {
-            left: 30%
+
+    }
+    @media screen and (max-width:860px){
+        .lesson-title{
+            font-size: 80%;
         }
     }
-    
-    @media screen and (max-width: 600px) {
-        .lesson-container__step {
+    @media screen and (max-width:680px){
+        .path-presentation{
+            font-size:large;
+        }
+        .lesson-title{
+            font-size: 60%;
+        }
+        .lesson{
+            margin-left:-2em;
+        }
+        .lesson-btns{
+            left:25%;
+        }
+    }
+    @media screen and (max-width:500px){
+        main{
+            max-width: 100%;
+        }
+        .lesson{
+            height:fit-content;
+            width:100%;
+            margin-left:-1em;
+        }
+        .lesson-container__step__indication{
+            font-size: 140%;
+        }
+        .lesson-container__step{
             flex-direction: column;
-            align-items: center;
-            max-width: 90%;
+            align-content: center;
         }
-        .lesson-container__step__indication {
-            width: 90%;
+        .pBtn:hover {
+            width: 8em;
         }
-        .lesson__img {
-            max-width: 90%;
-            max-height: 30%;
+        .nBtn:hover {
+            width: 8em;
+        }
+        .lesson-container__step__indication{
+            text-align: center;
+            align-self: center;
+        }
+        .lesson__img{
+            margin-top: 0em;
+            margin-right:0em;
+            margin-bottom: 20%;
+            object-fit: contain;
+        }
+        .lessons{
+            max-width: 100%;
+            margin-left:0;
+        }
+        
+    }
+    @media screen and (max-width:400px){
+        .lesson-btns{
+            left:30%;
+        }
+        .lesson__img{
+            margin-bottom: 30%;
             margin-left: auto;
             margin-right: auto;
+            max-width: 90%;
         }
+        .pBtn,
+        .nBtn{
+            width:6em;
+            font-size: smaller;
+            text-overflow:clip;
+        }
+        .pBtn{
+            width: fit-content;
+       }   
     }
+        @media screen and (max-width:300px){
+            .lesson-btns{
+                left:15%;
+            }
+        }
+        
     
-    @media screen and (max-width:500px) {
-        .lesson-btns {
-            display: flex;
-            flex-direction: column;
-            left: 22.5%;
-        }
-    }
