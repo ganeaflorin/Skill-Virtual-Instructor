@@ -26,28 +26,28 @@
             <li><a href="#2-introduction">Introduction</a> </li>
             <li><a href="#3-user-interface">User Interface</a>
                 <ol role="structure-directory">
-                    <li><a href="#structure__landing">Landing</a></li>
-                    <li><a href="#structure__about">About</a></li>
-                    <li><a href="#structure__paths">All paths</a></li>
-                    <li><a href="#structure__log/reg">Login, Register, Recover-password</a></li>
-                    <li><a href="#structure__skill-path">Skill path</a></li>
-                    <li><a href="#structure__profile">Profile</a></li>
+                    <li><a href="#31-structure__landing">Landing</a></li>
+                    <li><a href="#32-structure__about">About</a></li>
+                    <li><a href="#33-structure__paths">All paths</a></li>
+                    <li><a href="#34-structure__log/reg">Login, Register, Recover-password</a></li>
+                    <li><a href="#35-structure__skill-path">Skill path</a></li>
+                    <li><a href="#36-structure__profile">Profile</a></li>
                 </ol>
             </li>
-            <li><a href="#use-cases">Use-cases</a>
+            <li><a href="#4-use-cases">Use-cases</a>
             <ol>
-                <li><a href="#use-cases__unregistered">Unregistered user case</a></li>
-                <li><a href="#use-cases__unlogged">Unlogged user case</a></li>
-                <li><a href="#use-cases__logged">Logged User case</a></li>
+                <li><a href="#41-use-cases__unregistered">Unregistered user case</a></li>
+                <li><a href="#42-use-cases__unlogged">Unlogged user case</a></li>
+                <li><a href="#43-use-cases__logged">Logged User case</a></li>
             </ol>
             </li>
-            <li><a href="#objectives">Future objectives</a>
+            <li><a href="#5-objectives">Future objectives</a>
             <ol>
-                <li><a href="#objectives__overview">Overview</a></li> 
-                <li><a href="#objectives__db">Create a database</a></li> 
-                <li><a href="#objectives__microservice">Microservice for each lesson</a></li>
+                <li><a href="#51-objectives__overview">Overview</a></li> 
+                <li><a href="#52-objectives__db">Create a database</a></li> 
+                <li><a href="#53-objectives__microservice">Microservice for each lesson</a></li>
             </ol> </li>
-            <li><a href="#conclusion">Conclusion</a> </li>
+            <li><a href="#6-conclusion">Conclusion</a> </li>
         </ol>
     </div>
     <section id="abstract" role="doc-abstract">
