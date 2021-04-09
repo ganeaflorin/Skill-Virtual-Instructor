@@ -22,8 +22,8 @@
                 </dl>
     <div role="contentinfo">
         <ol role="directory">
-            <li><a href="#abstract">Abstract</a> </li>
-            <li><a href="#introduction">Introduction</a> </li>
+            <li><a href="#1-abstract">Abstract</a> </li>
+            <li><a href="#2-introduction">Introduction</a> </li>
             <li><a href="#3-structure">User Interface</a>
                 <ol role="structure-directory">
                     <li><a href="#structure__landing">Landing</a></li>
