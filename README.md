@@ -22,7 +22,7 @@
                 </dl>
     <div role="contentinfo">
         <ol role="directory">
-            <li><a href="#abstract">Abstract</a> </li>
+            <li><a href="abstract">Abstract</a> </li>
             <li><a href="#introduction">Introduction</a> </li>
             <li><a href="#structure">User Interface</a>
                 <ol role="structure-directory">
