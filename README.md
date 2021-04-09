@@ -24,7 +24,7 @@
         <ol role="directory">
             <li><a href="#abstract">Abstract</a> </li>
             <li><a href="#introduction">Introduction</a> </li>
-            <li><a href="#structure">User Interface</a>
+            <li><a href="#3-structure">User Interface</a>
                 <ol role="structure-directory">
                     <li><a href="#structure__landing">Landing</a></li>
                     <li><a href="#structure__about">About</a></li>
