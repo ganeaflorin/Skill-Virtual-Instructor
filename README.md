@@ -21,7 +21,7 @@
             <dt>Web Tehnologies Course</dt>
             
         </dl>
-    </header>
+    
     <div role="contentinfo">
         <ol role="directory">
             <li><a href="#abstract">Abstract</a> </li>
@@ -126,5 +126,6 @@
         <h2>6. Conclusion</h2>
         <p>//TODO</p>
     </section>
+    </header>
 </body>
 </html>
