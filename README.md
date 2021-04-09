@@ -18,10 +18,8 @@
             <dt>Coordinator</dt>
             <dd><a href="https://iampava.com/">Alexandru Pavaloi</a></dd>
             <dt>Faculty of Computer Science Iasi</dt>
-            <dt>Web Tehnologies Course</dt>
-            
-        </dl>
-    
+            <dt>Web Tehnologies Course</dt
+                </dl>
     <div role="contentinfo">
         <ol role="directory">
             <li><a href="#abstract">Abstract</a> </li>
