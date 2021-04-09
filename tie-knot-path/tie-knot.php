@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to do a tie knot like a pro!">
     <title>SkiVI - Origami</title>
     <style>
-         <?php include "../repetitive/path-page.css"; ?>
+        <?php include "../repetitive/path-page.css"; ?>
     </style>
 
 </head>
@@ -64,7 +65,7 @@
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Step 5</h3>
-                                    <p>Pass the thick end AGAIN across the front of the knot from left to right. 
+                                    <p>Pass the thick end AGAIN across the front of the knot from left to right.
                                         Bring the tip of the thick end up under the loop feed it up behind the knot through that third horizontal loop.</p>
 
                                 </div>
@@ -80,9 +81,9 @@
                                 <img src="../images/oriental6.png" class="lesson__img" alt="">
                             </section>
                             <div class="lesson-btns">
-                                <button type="button"  class="pBtn">Previous step </button>
+                                <button type="button" class="pBtn">Previous step </button>
 
-                                <button type="button"  class="nBtn">Next step
+                                <button type="button" class="nBtn">Next step
                                 </button>
                             </div>
                         </div>

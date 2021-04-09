@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to do a fast and delicious meals such as sandwich, omlete or pancakes.">
     <title>SkiVI - Fast meals</title>
     <style>
         <?php include "../repetitive/path-page.css"; ?>

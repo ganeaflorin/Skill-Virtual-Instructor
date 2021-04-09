@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to do beautiful and creative things using origami,
+    how to do a tie knot in a few simple steps or how to cook delicious and fast meals">
     <title>SkiVI - Your personal trainer</title>
     <style>
         <?php include "../landing/landing.css"; ?>

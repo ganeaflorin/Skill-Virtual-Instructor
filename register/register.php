@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Become part of SkiVI family!">
     <title>SkiVI - Sign Up</title>
     <style> 
     <?php include "register.css" ?>

@@ -19,7 +19,7 @@
     </a>
     <div class="nav-menu">
     <div class="three-bar">
-            <button type="button" id="nav-btn" onClick="showNav()" class="bar-btn">
+            <button type="button" id="nav-btn" onClick="showNav()" class="bar-btn" aria-label="Menu button">
             <div class="bar"> </div>
             <div class="bar"> </div>
             <div class="bar"> </div>
