@@ -61,7 +61,7 @@
         <p>SkiVI was created by two students enrolled in the 2nd year of Faculty of Computer Science Iasi.<br> At its base, it is a project which has to implement microservices for teaching different types of skills<br> (origami, tie knotting and preparing fast meals) proposed by the coordinator Alexandru Pavaloi<br> for the Web Technologies course.</p>
     </section>
     <section id="structure" role="doc-structure">
-        <h2>3. Structure</h2>
+        <h2>3. User-Interface</h2>
         <p>The project has at its base a landing page, a page for each skill, a about one, a full paths description,<br> one for profile user interface and each one for login, sign-up, recover-password, etc.,<br> all having the same header and footer for an easy navigation experience.</p>
     </section>
     <section id="structure__landing" role="doc-structure">
