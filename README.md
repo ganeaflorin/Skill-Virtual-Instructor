@@ -18,7 +18,7 @@
             <dt>Coordinator</dt>
             <dd><a href="https://iampava.com/">Alexandru Pavaloi</a></dd>
             <dt>Faculty of Computer Science Iasi</dt>
-            <dt>Web Tehnologies Course</dt
+            <dt>Web Tehnologies Course</dt>
                 </dl>
     <div role="contentinfo">
         <ol role="directory">
@@ -47,7 +47,6 @@
                 <li><a href="#52-database">Create a database</a></li> 
                 <li><a href="#53-microservice">Microservice for each lesson</a></li>
             </ol> </li>
-            <li><a href="#6-conclusion">Conclusion</a> </li>
         </ol>
     </div>
     <section id="abstract" role="doc-abstract">
@@ -119,10 +118,6 @@
     <section id="objectives__microservice" role="doc-structure">
         <h3>5.3. Microservice</h3>
         <p>Knowing that each two lessons don't have anything in common, for each one we'll implement a microservice which will can be updated or modified on its own.</p>
-    </section>
-    <section id="conclusion" role="doc-structure">
-        <h2>6. Conclusion</h2>
-        <p>//TODO</p>
     </section>
     </header>
 </body>

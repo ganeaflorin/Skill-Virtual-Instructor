@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation</title>
 </head>
 <body>
     <header>
@@ -18,7 +17,6 @@
             <dd><a href="https://iampava.com/">Alexandru Pavaloi</a></dd>
             <dt>Faculty of Computer Science Iasi</dt>
             <dt>Web Tehnologies Course</dt>
-            
         </dl>
     </header>
     <div role="contentinfo">
@@ -48,7 +46,6 @@
                 <li><a href="#objectives__db">Create a database</a></li> 
                 <li><a href="#objectives__microservice">Microservice for each lesson</a></li>
             </ol> </li>
-            <li><a href="#conclusion">Conclusion</a> </li>
         </ol>
     </div>
     <section id="abstract" role="doc-abstract">
@@ -120,10 +117,6 @@
     <section id="objectives__microservice" role="doc-structure">
         <h3>5.3. Microservice</h3>
         <p>Knowing that each two lessons don't have anything in common, for each one we'll implement a microservice which will can be updated or modified on its own.</p>
-    </section>
-    <section id="conclusion" role="doc-structure">
-        <h2>6. Conclusion</h2>
-        <p>//TODO</p>
     </section>
 </body>
 </html>
