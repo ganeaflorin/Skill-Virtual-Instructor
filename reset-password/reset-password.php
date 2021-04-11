@@ -12,27 +12,17 @@
 </head>
 
 <body>
-<?php 
-    include("../repetitive/header.php");
-    ?>
-
+<?php include("../repetitive/header.php"); ?>
     <main>
-
-        <div class="login-form">
-            <h1 class="login-form__h1">Reset password</h1>
+        <div class="reset-form">
+            <h1 class="reset-form__h1">Reset password</h1>
             <form>
                 <input type="password" name="current-password" placeholder="Current password" class="form-field" required>
                 <input type="password" name="new-password" placeholder="New password" class="form-field" required>
-                <button type="submit" name="reset-password" class="login-btn">Reset</button>
+                <button type="submit" name="reset-password" class="reset-btn">Reset</button>
             </form>
-           
         </div>
-
     </main>
-
-    <?php 
-    include("../repetitive/footer.php");
-    ?>
+    <?php include("../repetitive/footer.php"); ?>
 </body>
-
 </html>

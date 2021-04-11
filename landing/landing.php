@@ -25,7 +25,6 @@
                         <div class="eye"> </div>
                         <div class="eye"> </div>
                     </div>
-
                 </div>
                 <div class="body"></div>
                 <div class="left-arm"></div>
@@ -48,7 +47,6 @@
                         Paper is not only for boring bureaucracy stuff! Take IT to the next level.</p>
                     </a>
                 </div>
-                
                 <div class="path">
                     <a href="../tie-knot-path/tie-knot.php" class="path__links">
 
@@ -74,9 +72,7 @@
         </div>
     </main>
 
-    <?php
-    include("../repetitive/footer.php");
-    ?>
+    <?php include("../repetitive/footer.php"); ?>
 </body>
 
 </html>

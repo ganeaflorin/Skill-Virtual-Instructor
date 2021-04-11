@@ -16,10 +16,7 @@
 <body>
     <?php include "../repetitive/header.php"; ?>
 
-
-
     <main>
-
         <div class="profile">
             <div class="profile__infos">
                 <div class="profile__infos__avatar">
@@ -37,7 +34,6 @@
                     <button onClick="location.href='../reset-password/reset-password.php'" id="change-pass"  class="change-pass">
                             Change password </button>
                     
-
                 </div>
             </div>
 
@@ -71,11 +67,6 @@
 
         </div>
     </main>
-
-
-
-
-
     <?php include "../repetitive/footer.php"; ?>
 </body>
 

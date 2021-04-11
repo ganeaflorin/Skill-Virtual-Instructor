@@ -26,7 +26,6 @@
                         <div class="eye"> </div>
                         <div class="eye"> </div>
                     </div>
-
                 </div>
                 <div class="body"></div>
                 <div class="left-arm"></div>
@@ -38,7 +37,6 @@
                     robot years old, I learned a lot of new things here and I am capable to teach you some of them. </p>
             </div>
         </div>
-
         <a href="../origami-path/origami.php" class="main__path-link">
             <div class="main__path-section">
                 <div class="path-description">
@@ -72,9 +70,7 @@
         </a>
     </main>
 
-    <?php 
-    include("../repetitive/footer.php");
-    ?>
+    <?php include("../repetitive/footer.php"); ?>
 </body>
 
 </html>

@@ -17,8 +17,8 @@
     ?>
 
     <main>
-        <div class="login-form">
-            <h1 class="login-form__h1">Sign Up</h1>
+        <div class="register-form">
+            <h1 class="register-form__h1">Sign Up</h1>
             <form>
                 <input type="text" name="username" placeholder="Username" class="form-field" required>
                 <input type="text" name="email" placeholder="Email" class="form-field" required>
@@ -26,7 +26,7 @@
                 <input type="password" name="password" placeholder="Confirm password" class="form-field" required>
                 <button type="submit" name="signup" class="sign-up-btn">SIGN UP</button>
             </form>
-            <p class="sign-up-text">Already friends with SkiVI?</p>
+            <p class="login-text">Already friends with SkiVI?</p>
             <a href="../login/login.php" class="login-btn">LOGIN</a>
         </div>
     </main>

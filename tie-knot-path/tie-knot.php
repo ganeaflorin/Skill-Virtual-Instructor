@@ -22,7 +22,6 @@
                 and lets start the lessons below!
             </p>
         </div>
-
         <div class="lessons">
             <ul>
                 <li class="lesson-title">
@@ -88,9 +87,8 @@
                             </div>
                         </div>
                     </div>
-
-
                 </li>
+
                 <li class="lesson-title">
                     <button id="1" onClick="showContent(this.id)" class="dropdown-button">
                         2. Four in Hand </button>
@@ -163,7 +161,6 @@
                         </div>
                     </div>
                 </li>
-
 
                 <li class="lesson-title">
                     <button id="2" onClick="showContent(this.id)" class="dropdown-button">
@@ -247,6 +244,7 @@
                         </div>
                     </div>
                 </li>
+
                 <li class="lesson-title">
                     <button id="3" onClick="showContent(this.id)" class="dropdown-button">
                         4. Full Windsor </button>
@@ -341,16 +339,12 @@
                             <section class="lesson-container__step">
                                 <div class="lesson-container__step__indication">
                                     <h3>Final Step!</h3>
-                                    <p>Pull the wide end all the way down and smooth out any creases or slack in the knot.
-
-                                    </p>
-
+                                    <p>Pull the wide end all the way down and smooth out any creases or slack in the knot. </p>
                                 </div>
                                 <img src="../images/fullwindsor11.png" class="lesson__img" alt="">
                             </section>
                             <div class="lesson-btns">
-                                <button type="button" class="pBtn ungabunga">Previous step </button>
-
+                                <button type="button" class="pBtn ">Previous step </button>
                                 <button type="button" class="nBtn">Next step
                                 </button>
                             </div>
@@ -359,10 +353,6 @@
                 </li>
             </ul>
         </div>
-
-
-
-
     </main>
     <?php include("../repetitive/footer.php"); ?>
     <script src="../repetitive/carousel.js"></script>

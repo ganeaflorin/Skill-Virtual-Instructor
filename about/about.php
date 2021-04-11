@@ -22,7 +22,6 @@
                             <div class="eye"> </div>
                             <div class="eye"> </div>
                         </div>
-
                     </div>
                     <div class="body"></div>
                     <div class="left-arm"></div>
@@ -41,8 +40,6 @@
             </div>
         </section>
         <section class="our-presentation">
-
-
             <div class="our-presentation__div">
                 <h1>Ganea Florin</h1>
                 <img src="../images/flo.jpg" alt="one of the creators, Ganea Florin" class="our-presentation__div__image">

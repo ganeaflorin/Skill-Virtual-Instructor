@@ -1,4 +1,4 @@
-.login-form {
+.register-form {
     margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,7 @@ form {
     margin-bottom: 10em;
 }
 
-.login-form__h1 {
+.register-form__h1 {
     margin-top: 1.5em;
     color: white;
     text-transform: uppercase;
@@ -46,15 +46,7 @@ form {
     outline: #3498DB;
 }
 
-.login-form__checkers {
-    display: flex;
-    justify-content: space-between;
-}
 
-.forgot-password {
-    text-decoration: none;
-    color: white;
-}
 
 .sign-up-btn {
     text-decoration: none;
@@ -104,7 +96,7 @@ form {
     background-color: #2ecc71;
 }
 
-.sign-up-text {
+.login-text {
     font-size: 1.2em;
 }
 

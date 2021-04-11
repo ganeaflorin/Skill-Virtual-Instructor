@@ -18,12 +18,12 @@
 
     <main>
 
-        <div class="login-form">
-            <h1 class="login-form__h1">Recover password</h1>
+        <div class="recover-form">
+            <h1 class="recover-form__h1">Recover password</h1>
             <form>
                 <input type="text" name="username" placeholder="Username" class="form-field" required>
                 <input type="email" name="email" placeholder="Email" class="form-field" required>
-                <button type="submit" name="recover-password" class="login-btn">Recover</button>
+                <button type="submit" name="recover-password" class="recover-btn">Recover</button>
             </form>
             <p class="sign-up-text">If you haven't met SkiVI yet, please sign up:</p>
             <a href="/register/register.html" class="sign-up-btn">Sign Up</a>
