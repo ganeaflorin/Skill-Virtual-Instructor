@@ -1,0 +1,229 @@
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
+        justify-content: space-around;
+    }
+    
+    .path-presentation {
+        text-align: center;
+    }
+    
+    .lessons {
+        align-self: flex-start;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    
+    .lesson-title {
+        margin-bottom: 2em;
+        font-size: 140%;
+        list-style: none;
+    }
+    
+    .dropdown-button:hover,
+    .dropdown-button:focus {
+        background-color: #FF9700;
+        border-radius: 20px 20px 20px 10px;
+        transform: scale(1.2);
+        width: 7em;
+        text-align: start;
+        outline: #FF9700;
+    }
+    
+    .dropdown-button {
+        background-color: transparent;
+        color: white;
+        font-size: 140%;
+        padding: 0;
+        display: block;
+        border: 0;
+        cursor: pointer;
+        border-color: #151019;
+    }
+    
+    .lesson {
+        display: none;
+        margin-top: 2.5em;
+        background-color: #FF9700;
+        height: 20em;
+        width: 30em;
+        border-radius: 10px 30px 30px 30px;
+    }
+    
+    .lesson__img {
+        height: 120%;
+        margin-top: 20%;
+        align-self: center;
+        border: 3px solid black;
+        border-radius: 10%;
+        margin-right: 5%;
+    }
+    
+    .lesson-container__step {
+        display: flex;
+        height: 50%;
+        justify-content: space-between;
+        min-width: 100%;
+        transition: transform 1.5s cubic-bezier(0, 1.09, 0.45, 1.01);
+    }
+    
+    .lesson-container__step__indication {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 5%;
+        text-align: center;
+        margin-right: 5%;
+    }
+    
+    .lesson-btns {
+        max-width: 30em;
+        position: absolute;
+        bottom: 5%;
+        left: 38%;
+    }
+    
+    .lesson-container {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        height: 100%;
+    }
+    
+    .pBtn,
+    .nBtn {
+        border: 0;
+        background: #151019;
+        text-align: center;
+        padding: 1em 0.8em;
+        width: 8em;
+        color: white;
+        border-radius: 1.5em;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    
+    .nBtn:focus,
+    .pBtn:focus {
+        outline: #3498DB;
+    }
+    
+    .pBtn:hover {
+        width: 10em;
+        background-color: #3498DB;
+    }
+    
+    .nBtn:hover {
+        width: 10em;
+        background-color: #3498DB;
+    }
+    
+    @media screen and (max-width:1400px) {
+        main {
+            align-items: flex-start;
+        }
+        .path-presentation {
+            align-self: center;
+        }
+        .lessons {
+            margin-left: 5%;
+        }
+    }
+    
+    @media screen and (max-width:1150px) {
+        .lesson-title {
+            font-size: 100%;
+        }
+        .lesson-btns {
+            left: 30%;
+        }
+    }
+    
+    @media screen and (max-width:860px) {
+        .lesson-title {
+            font-size: 80%;
+        }
+    }
+    
+    @media screen and (max-width:680px) {
+        .path-presentation {
+            font-size: large;
+        }
+        .lesson-title {
+            font-size: 60%;
+        }
+        .lesson {
+            margin-left: -2em;
+        }
+        .lesson-btns {
+            left: 25%;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        main {
+            max-width: 100%;
+        }
+        .lesson {
+            height: fit-content;
+            width: 100%;
+            margin-left: -1em;
+        }
+        .lesson-container__step__indication {
+            font-size: 140%;
+        }
+        .lesson-container__step {
+            flex-direction: column;
+            align-content: center;
+        }
+        .pBtn:hover {
+            width: 8em;
+        }
+        .nBtn:hover {
+            width: 8em;
+        }
+        .lesson-container__step__indication {
+            text-align: center;
+            align-self: center;
+        }
+        .lesson__img {
+            margin-top: 0em;
+            margin-right: 0em;
+            margin-bottom: 20%;
+            object-fit: contain;
+            max-width: 90%;
+        }
+        .lessons {
+            max-width: 100%;
+            margin-left: 0;
+        }
+    }
+    
+    @media screen and (max-width:400px) {
+        .lesson-btns {
+            left: 30%;
+        }
+        .lesson__img {
+            margin-bottom: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+        }
+        .pBtn,
+        .nBtn {
+            width: 6em;
+            font-size: smaller;
+            text-overflow: clip;
+        }
+        .pBtn {
+            width: fit-content;
+        }
+    }
+    
+    @media screen and (max-width:300px) {
+        .lesson-btns {
+            left: 15%;
+        }
+    }

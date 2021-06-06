@@ -1,0 +1,15 @@
+{
+    "description": "Some description will be useful too!",
+    "name": "andre/mvc",
+    "authors": [{
+        "name": "ganeaflorin",
+        "email": "ganeafloman@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+
+    },
+    "require": {}
+}

@@ -1,0 +1,171 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    height: 50em;
+    width: 70em;
+    background-color: #FF9700;
+    border-radius: 20px;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile__infos__avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-avatar {
+    object-fit: cover;
+    width: 20em;
+    height: 25em;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.change-avatar,
+.change-pass {
+    border: 0;
+    background: #3498DB;
+    display: block;
+    margin: 2em auto;
+    text-align: center;
+    padding: 1.5em 0.8em;
+    width: 11em;
+    color: white;
+    border-radius: 1.5em;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.change-pass-href {
+    text-decoration: none;
+}
+
+.change-avatar:focus,
+.change-pass:focus {
+    outline: #2ecc71;
+    background-color: #2ecc71;
+}
+
+.change-avatar:hover,
+.change-pass:hover {
+    width: 13em;
+    background-color: #2ecc71;
+}
+
+.profile__infos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile__infos__credentials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile__infos__credentials__field {
+    background-color: #151019;
+    font-size: x-large;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5em;
+}
+
+.profile__skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    font-size: x-large;
+    text-align: center;
+    background-color: #151019;
+    border-radius: 20px;
+    padding: 0 1em 1em 1em;
+}
+
+.skill__bar {
+    text-align: center;
+    width: 10em;
+    height: 1em;
+    background-color: #a1c5dd;
+    border-radius: 16px;
+    position: relative;
+}
+
+.skill__bar__default-progress {
+    border-radius: 16px;
+    color: white;
+    background-color: #3498DB;
+    width: 90%;
+    height: 100%;
+}
+
+.progress-percent {
+    position: absolute;
+    font-size: 1em;
+    top: -100%;
+    left: 40%;
+}
+
+.tie-progress {
+    width: 60%;
+}
+
+.meals-progress {
+    width: 10%;
+}
+
+@media screen and (max-width:1000px) {
+    .profile {
+        max-width: 80%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 80%;
+    }
+    .profile__infos {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .profile__infos__credentials__field {
+        max-width: 70%;
+        margin-bottom: 5%;
+        align-self: center;
+        text-align: center;
+        font-size: 150%;
+    }
+    .user-avatar {
+        object-fit: cover;
+        max-width: 80%;
+        height: 80%;
+        margin-top: 5%;
+    }
+    .profile__skills {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .skill {
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        width: 60%;
+        height: 20%;
+    }
+    .skill__bar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .profile__infos__credentials__field {
+        font-size: 100%;
+    }
+}
