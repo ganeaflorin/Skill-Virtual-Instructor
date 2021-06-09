@@ -2,6 +2,8 @@
 namespace app\core;
 use app\models\User;
 use App;
+use app\core\lesson\Lesson;
+
 class Application
 {
     public Router $router;
@@ -15,6 +17,9 @@ class Application
     public ?DbModel $user;
     public string $userClass;
     public string $layout = 'main';
+    public array $lessons = [];
+    public array $pathNames = [];
+
     public function getController() {
         return $this->controller;
     }
@@ -24,6 +29,9 @@ class Application
     }
 
     public function __construct($rootPath, array $config){
+        $micro = new Microservices();
+        $this->lessons = $micro->getLessons();
+        $this->pathNames = $micro->getPathNames();
         $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootPath;
         self::$app = $this;
@@ -69,5 +77,12 @@ class Application
             return false;
         }
         else return true;
+    }
+   
+    public function isAdmin() {
+        if($this->isGuest()) return false;
+        if($this->user->admin)
+            return true;
+        return false;
     }
 }
