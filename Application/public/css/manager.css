@@ -1,0 +1,35 @@
+.hide-select {
+    display: none;
+}
+
+.hide-delete {
+    display: none;
+}
+
+.hide-update {
+    display: none;
+}
+
+.hide-add {
+    display: none;
+}
+
+.hide-steps {
+    display: none;
+}
+
+.hide-text-box {
+    display: none;
+}
+
+.hide-add-step {
+    display: none;
+}
+
+.hide-update-step {
+    display: none;
+}
+
+.hide-update-options {
+    display: none;
+}
