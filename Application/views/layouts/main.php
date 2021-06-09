@@ -30,6 +30,7 @@ include "./css/header.css"; ?>
         </div>
 
     <nav class="nav-bar">
+    
         <?php if(Application::$app->isGuest()): ?>
         <div class="nav-button">
             <a href="/login" class="nav-button__anchor">Login</a>
@@ -37,7 +38,13 @@ include "./css/header.css"; ?>
         <div class="nav-button">
             <a href="/register" class="nav-button__anchor">SignUp</a>
         </div>
+        
         <?php else: ?>
+            <?php if(Application::$app->isAdmin()): ?>
+        <div class="nav-button">
+            <a href="/path-modify" class="nav-button__anchor"> Manager </a>
+        </div>
+        <?php endif; ?>
             <div class="nav-button">
             <a href="/profile" class="nav-button__anchor"> Profile </a>
         </div>
@@ -60,7 +67,7 @@ include "./css/header.css"; ?>
     <div>
         <?php echo Application::$app->session->getFlash('success') ?>
     </div>
-    <?php endif;?>
+    <?php endif;?> 
 {{content}}
 </div>
 

@@ -24,6 +24,7 @@
                     <input type="checkbox" name="remember-me" class="remember-me" id = "remember-me">
                 Remember me</label>
                     <a href="../recover-password/recover-password.php" class="forgot-password">Forgot password?</a>
+
                 </div>
 
                 <button type="submit" name="login" class="login-btn">LOGIN</button>

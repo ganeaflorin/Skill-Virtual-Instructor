@@ -24,14 +24,9 @@
 
         <div class="lessons">
             <ul>
-            <?php foreach($lessons as $lesson)
-                    echo $lesson;
-                ?>
+            <?php foreach($lessons as $lesson) echo $lesson; ?>
             </ul>
         </div>
-
-
-
 
     </main>
 

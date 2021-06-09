@@ -67,7 +67,7 @@
         </div>
         <div class="hide-add">
             <label>New lesson title:
-                <input type="text"> </input>
+                <input type="text" name = "add-lesson"> </input>
             </label>
         </div>
         <div class="hide-update-options">

@@ -3,6 +3,8 @@ var chosenPath;
 var chosenLesson;
 var deleteWasClicked = false;
 var updateWasClicked = false;
+
+//xmlhttps request to get all lessons
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -28,17 +30,25 @@ function updateOperations(dropdown) {
 }
 
 function lessonSelector(dropdown) {
-    // var option_text = dropdown.options[dropdown.selectedIndex].text;
-    chosenPath = dropdown.options[dropdown.selectedIndex].value;
-    console.log(chosenPath);
+    updateWasClicked = false;
+    deleteWasClicked = false;
     let select = document.getElementsByClassName("hide-select");
+    let selects = document.getElementsByTagName("select");
+    var selectsArr = Array.prototype.slice.call(selects);
+    //remove the main select from array and set the others to default
+    selectsArr.splice(0, 1);
+    selectsArr.forEach(element =>
+        element.value = ''
+    );
+    hideSiblings(select[0]);
     select[0].style.display = "block";
+    //get the selected path
+    chosenPath = dropdown.options[dropdown.selectedIndex].value;
     //hide all elements if path empty
     if (!chosenPath) {
         select[0].style.display = "none";
         hideSiblings(select[0]);
     }
-
 }
 
 function hideSiblings(currentElement) {
@@ -57,7 +67,7 @@ function showSteps(dropdown) {
     stepSelect.innerHTML = '';
     let defaultOpt = document.createElement('option');
     defaultOpt.value = '';
-    defaultOpt.innerHTML = "Please chose an option";
+    defaultOpt.innerHTML = "Please choose an option";
     stepSelect.appendChild(defaultOpt);
 
     chosenLesson = dropdown.options[dropdown.selectedIndex].value;
@@ -170,6 +180,11 @@ function deleteOptions(dropdown) {
 }
 
 function createOptions(dropdown) {
+    dropdown.innerHTML = '';
+    var defaultOpt = document.createElement('option');
+    defaultOpt.value = '';
+    defaultOpt.innerHTML = 'Please choose an option:';
+    dropdown.appendChild(defaultOpt);
     var lessonNames;
     var obj = JSON.parse(lessons);
     if (chosenPath === "origami")

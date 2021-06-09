@@ -17,6 +17,7 @@ class SiteController extends Controller{
         return $this->render('paths');
     }
 
+
     public function home() {
         if(Application::$app->isGuest())
         $name = '';

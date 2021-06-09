@@ -22,6 +22,7 @@ class AuthController extends Controller {
         if($request->isPost()) {
             $loginForm->loadData($request->getBody());
             if($loginForm->validate() && $loginForm->login()) {
+                // if(array_key_exists("remember-me", $request->getBody()))
                 Application::$app->response->redirect('/');
                 return;
             }
@@ -33,6 +34,7 @@ class AuthController extends Controller {
     );
     }
     public function register(Request $request) {
+       
         $user = new User();
         if($request->isPost()) {
             $user->loadData($request->getBody());
