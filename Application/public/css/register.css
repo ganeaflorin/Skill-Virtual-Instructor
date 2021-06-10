@@ -40,6 +40,14 @@ form {
     transition: 0.25s;
 }
 
+.form-field:-webkit-autofill,
+.form-field:-webkit-autofill:hover,
+.form-field:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    box-shadow: #151019;
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+}
+
 .form-field:focus {
     width: 24em;
     border: 3px solid #3498DB;

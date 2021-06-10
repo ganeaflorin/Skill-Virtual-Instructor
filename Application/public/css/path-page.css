@@ -26,8 +26,8 @@
     .dropdown-button:focus {
         background-color: #FF9700;
         border-radius: 20px 20px 20px 10px;
-        transform: scale(1.2);
-        width: 7em;
+        /* transform: scale(1.2); */
+        width: 105%;
         text-align: start;
         outline: #FF9700;
     }

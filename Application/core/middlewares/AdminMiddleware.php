@@ -11,10 +11,8 @@ class AdminMiddleware extends BaseMiddleware {
         $this->actions = $actions;
     }
     public function execute() {
-        if(!Application::$app->isAdmin()) {
-            if(empty($this->actions) || in_array(Application::$app->controller->action, $this->actions)) {
+        if(!Application::$app->isAdmin() && in_array(Application::$app->controller->action, $this->actions)) {
                 throw new ForbiddenException();
-            }
         }
     }
 }

@@ -20,18 +20,12 @@ class Application
     public array $lessons = [];
     public array $pathNames = [];
 
-    public function getController() {
-        return $this->controller;
-    }
-
-    public function setController(Controller $controller) {
-        $this->controller = $controller;
-    }
-
     public function __construct($rootPath, array $config){
+        //luam lectiile de la microservicii
         $micro = new Microservices();
         $this->lessons = $micro->getLessons();
         $this->pathNames = $micro->getPathNames();
+
         $this->userClass = $config['userClass'];
         self::$ROOT_DIR = $rootPath;
         self::$app = $this;
@@ -40,25 +34,36 @@ class Application
         $this->session = new Session();
         $this->router=new Router($this->request, $this->response);
         $this->db = new Database($config['db']);
+
+        //daca avem userul in sesiune, setam userul in aplicatie
         $primaryValue = $this->session->get('user');
         if($primaryValue) {
         $primaryKey = $this->userClass::primaryKey();
         $this->user = $this->userClass::findOne([$primaryKey => $primaryValue]);
         }
         else $this->user = null;
-}
+        }
+
+    public function getController() {
+        return $this->controller;
+    }
+
+    public function setController(Controller $controller) {
+        $this->controller = $controller;
+    }
+
     public function run(){
         try {
         echo $this->router->resolve();
         } catch (\Exception $e) {
             $this->response->setStatusCode($e->getCode());
-
             echo $this->router->renderView('_error', [
                 'exception' => $e
             ]);
         }
-}
+    }
 
+    //setam userul in sesiune
     public function login(DbModel $user) {
         $this->user = $user;
         $primaryKey = $user->primaryKey();
@@ -71,6 +76,7 @@ class Application
         $this->user = null;
         $this->session->remove('user');
     }
+    
     public function isGuest() {
         $primaryValue = $this->session->get('user');
         if($primaryValue) {

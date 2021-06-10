@@ -14,7 +14,6 @@ use app\core\middlewares\LoggedMiddleware;
 class AuthController extends Controller {
 
     public function __construct() {
-        $this->registerMiddleware(new AuthMiddleware(['profile']));
         $this->registerMiddleware(new LoggedMiddleware(['login', 'register']));
     }
     public function login(Request $request, Response $response) {
@@ -22,7 +21,6 @@ class AuthController extends Controller {
         if($request->isPost()) {
             $loginForm->loadData($request->getBody());
             if($loginForm->validate() && $loginForm->login()) {
-                // if(array_key_exists("remember-me", $request->getBody()))
                 Application::$app->response->redirect('/');
                 return;
             }
@@ -40,7 +38,7 @@ class AuthController extends Controller {
             $user->loadData($request->getBody());
             if($user->validate() && $user->save()) {
                 Application::$app->session->setFlash('success', 'Thanks for registering!');
-                Application::$app->response->redirect('/');
+                Application::$app->response->redirect('/login');
                 exit;
             }
             return $this->render('register', [
@@ -58,12 +56,4 @@ class AuthController extends Controller {
         $response->redirect('/');
     }
     
-    public function profile() {
-        
-        $params = [
-            'email' => Application::$app->user->getEmail(),
-            'username' => Application::$app->user->getDisplayName()
-        ];
-        return $this->render('profile', $params);
-    }
 } 

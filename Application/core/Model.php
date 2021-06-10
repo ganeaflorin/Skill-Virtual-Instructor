@@ -45,7 +45,6 @@ abstract class Model
                 if ($ruleName === self::RULE_MATCH && $value !== $this->{$rule['match']}) {
                     $rule['match'] = $this->getLabel($rule['match']);
                     $this->addErrorForRule($attribute, self::RULE_MATCH, $rule);
-
                 }
                 if($ruleName === self::RULE_UNIQUE) {
                     $className = $rule['class'];

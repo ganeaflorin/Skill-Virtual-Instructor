@@ -41,7 +41,7 @@ class PathController extends Controller {
     public function pathModify(Request $request) {
         $curl = new Curl();  
         if($request->isPost()) {
-            var_dump($curl->getPostResponse($request->getBody()["paths"],$request->getBody()));
+            $curl->getPostResponse($request->getBody()["paths"],$request->getBody());
         }
         return $this->render('path-modify');
     }

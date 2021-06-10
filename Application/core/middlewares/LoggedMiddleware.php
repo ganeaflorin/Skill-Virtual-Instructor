@@ -11,10 +11,8 @@ class LoggedMiddleware extends BaseMiddleware {
         $this->actions = $actions;
     }
     public function execute() {
-        if(!Application::$app->isGuest()) {
-            if(empty($this->actions) || in_array(Application::$app->controller->action, $this->actions)) {
+        if(!Application::$app->isGuest() && in_array(Application::$app->controller->action, $this->actions)) {
                 throw new ForbiddenException();
-            }
         }
     }
 }

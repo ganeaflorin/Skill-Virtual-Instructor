@@ -1,35 +1,78 @@
-.hide-select {
-    display: none;
-}
-
-.hide-delete {
-    display: none;
-}
-
-.hide-update {
-    display: none;
-}
-
-.hide-add {
-    display: none;
-}
-
-.hide-steps {
-    display: none;
-}
-
-.hide-text-box {
-    display: none;
-}
-
-.hide-add-step {
-    display: none;
-}
-
-.hide-update-step {
-    display: none;
-}
-
-.hide-update-options {
-    display: none;
-}
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .div-field {
+        margin-top: 2em;
+    }
+    
+    select,
+    input {
+        border: 0;
+        background-color: #FF9700;
+        text-align: center;
+        padding: 1em 0.8em;
+        color: black;
+        border-radius: 1.5em;
+    }
+    
+    .hide-select {
+        display: none;
+    }
+    
+    .hide-delete {
+        display: none;
+    }
+    
+    .hide-update {
+        display: none;
+    }
+    
+    .hide-add {
+        display: none;
+    }
+    
+    .hide-steps {
+        display: none;
+    }
+    
+    .hide-text-box {
+        display: none;
+    }
+    
+    .hide-add-step {
+        display: none;
+    }
+    
+    .hide-update-step {
+        display: none;
+    }
+    
+    .hide-update-options {
+        display: none;
+    }
+    
+    .submitBtn {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.5em;
+        align-self: center;
+        text-decoration: none;
+        padding: 0.45em;
+        border: 0;
+        background: #FF9700;
+        display: block;
+        text-align: center;
+        padding: 1em 0.8em;
+        width: 10em;
+        color: black;
+        border-radius: 1.5em;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    
+    .submitBtn:hover {
+        width: 10em;
+        /* background-color: #3498DB; */
+    }

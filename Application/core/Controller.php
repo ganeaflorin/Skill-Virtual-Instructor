@@ -8,6 +8,7 @@ class Controller {
     public string $layout='main';
     protected array $middlewares = [];
     public string $action = '';
+    
     public function render($view, $params =[]) {
         return Application::$app->router->renderView($view, $params);
     }

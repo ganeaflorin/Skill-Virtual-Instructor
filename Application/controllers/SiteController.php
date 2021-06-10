@@ -6,9 +6,7 @@ use app\core\Controller;
 use app\core\Request;
 use app\core\middlewares\AuthMiddleware;
 class SiteController extends Controller{
-    public function __construct() {
-        $this->registerMiddleware(new AuthMiddleware(['profile']));
-    }
+
 
     public function about() {
         return $this->render('about');

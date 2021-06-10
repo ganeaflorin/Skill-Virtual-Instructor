@@ -45,9 +45,7 @@ include "./css/header.css"; ?>
             <a href="/path-modify" class="nav-button__anchor"> Manager </a>
         </div>
         <?php endif; ?>
-            <div class="nav-button">
-            <a href="/profile" class="nav-button__anchor"> Profile </a>
-        </div>
+
             <div class="nav-button">
             <a href="/logout" class="nav-button__anchor"> Logout </a>
         </div>
@@ -63,11 +61,7 @@ include "./css/header.css"; ?>
     <script src="/js/showNav.js"> </script>
 </header>
 <div>
-    <?php if(Application::$app->session->getFlash('success')): ?>
-    <div>
-        <?php echo Application::$app->session->getFlash('success') ?>
-    </div>
-    <?php endif;?> 
+
 {{content}}
 </div>
 

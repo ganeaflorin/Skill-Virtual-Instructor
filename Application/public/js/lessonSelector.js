@@ -71,17 +71,8 @@ function showSteps(dropdown) {
     stepSelect.appendChild(defaultOpt);
 
     chosenLesson = dropdown.options[dropdown.selectedIndex].value;
-    var lessonNames;
-    var obj = JSON.parse(lessons);
-    if (chosenPath === "origami")
-        lessonNames = obj[0].origami;
-    if (chosenPath === "tie")
-        lessonNames = obj[1].tie;
-    if (chosenPath === "meals")
-        lessonNames = obj[2].meals;
-
-    lessonNames = JSON.stringify(lessonNames);
-    obj = JSON.parse(lessonNames);
+    var lessonNames = getLessonNames();
+    var obj = JSON.parse(lessonNames);
     for (var it = 0; it < obj.length; it++) {
         let lessonTitle = obj[it].name;
         if (lessonTitle === chosenLesson) {
@@ -127,17 +118,8 @@ function showTextbox(dropdown) {
     let textbox = document.getElementsByClassName("hide-text-box");
     textbox[0].style.display = "block";
     let node = document.querySelectorAll("#modify-step");
-    var lessonNames;
-    var obj = JSON.parse(lessons);
-    if (chosenPath === "origami")
-        lessonNames = obj[0].origami;
-    if (chosenPath === "tie")
-        lessonNames = obj[1].tie;
-    if (chosenPath === "meals")
-        lessonNames = obj[2].meals;
-
-    lessonNames = JSON.stringify(lessonNames);
-    obj = JSON.parse(lessonNames);
+    var lessonNames = getLessonNames();
+    var obj = JSON.parse(lessonNames);
     for (var it = 0; it < obj.length; it++) {
         let lessonTitle = obj[it].name;
         if (lessonTitle === chosenLesson) {
@@ -185,6 +167,18 @@ function createOptions(dropdown) {
     defaultOpt.value = '';
     defaultOpt.innerHTML = 'Please choose an option:';
     dropdown.appendChild(defaultOpt);
+    var lessonNames = getLessonNames();
+    var obj = JSON.parse(lessonNames);
+    for (var it = 0; it < obj.length; it++) {
+        let lessonTitle = obj[it].name;
+        var opt = document.createElement('option');
+        opt.value = lessonTitle;
+        opt.innerHTML = lessonTitle;
+        dropdown.appendChild(opt);
+    }
+}
+
+function getLessonNames() {
     var lessonNames;
     var obj = JSON.parse(lessons);
     if (chosenPath === "origami")
@@ -193,15 +187,5 @@ function createOptions(dropdown) {
         lessonNames = obj[1].tie;
     if (chosenPath === "meals")
         lessonNames = obj[2].meals;
-
-    lessonNames = JSON.stringify(lessonNames);
-    obj = JSON.parse(lessonNames);
-    for (var it = 0; it < obj.length; it++) {
-        let lessonTitle = obj[it].name;
-        var opt = document.createElement('option');
-        opt.value = lessonTitle;
-        opt.innerHTML = lessonTitle;
-        dropdown.appendChild(opt);
-    }
-
+    return JSON.stringify(lessonNames);
 }
