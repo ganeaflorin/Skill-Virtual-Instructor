@@ -28,9 +28,9 @@
                     <li><a href="#31-landing-page">Landing</a></li>
                     <li><a href="#32-about">About</a></li>
                     <li><a href="#33-all-paths">All paths</a></li>
-                    <li><a href="#34-login-register-recover-password">Login, Register, Recover-password</a></li>
+                    <li><a href="#34-login-register">Login, Register</a></li>
                     <li><a href="#35-skill-path">Skill path</a></li>
-                    <li><a href="#36-profile-page">Profile</a></li>
+                    <li><a href="#37-modify-page">Admin-page</a></li>
                 </ol>
             </li>
             <li><a href="#4-use-cases">Use-cases</a>
@@ -38,14 +38,20 @@
                 <li><a href="#41-unregistered-user">Unregistered user case</a></li>
                 <li><a href="#42-unlogged-user">Unlogged user case</a></li>
                 <li><a href="#43-logged-user">Logged User case</a></li>
-                <li><a href="#44-logged-user">Logged User case</a></li>
+                <li><a href="#43-admin">Admin</a></li>
             </ol>
             </li>
-            <li><a href="#5-future-objectives">Future objectives</a>
+            <li><a href="#5-features">Functionalities</a>
             <ol>
-                <li><a href="#51-overview">Overview</a></li> 
-                <li><a href="#52-database">Create a database</a></li> 
-                <li><a href="#53-microservice">Microservice for each lesson</a></li>
+                <li><a href="#51-overview">Register</a></li> 
+                <li><a href="#52-database">Logine</a></li> 
+                <li><a href="#53-microservice">Admin</a></li>
+                <li><a href="#53-microservice">Page-restriction</a></li>
+                <li><a href="#53-microservice">Microservices</a></li>
+                <li><a href="#53-microservice">Communication with the Microservices</a></li>
+                <li><a href="#53-microservice">Database</a></li>
+                <li><a href="#53-microservice">AJAX</a></li>
+                <li><a href="#53-microservice">SQL-injection</a></li>
             </ol> </li>
         </ol>
     </div>
@@ -84,8 +90,8 @@
         <p>All of out 3 skills pages has this structure, composed by a title at its top, and the all the lessons with nice animated type of teach. When a lesson is clicked, a java-script carousel is dropped-down contaning the lesson's steps.</p>
     </section>
     <section id="structure__profile" role="doc-structure">
-        <h3>3.6. Profile page</h3>
-        <p>This page is useful for an already registered user, who wants to see their credentials, or to change them. Also, athe the bottom of his profile card, he can see the pregress trough the lessons.</p>
+        <h3>3.6. Admin page</h3>
+        <p>This page is restricted, so it can be accesed only by admins. in this page, an admin can modify the lessons of the application, to add new lessons for different paths, etc.</p>
     </section>
     <section id="use-cases" role="doc-structure">
         <h2>4. Use-cases</h2>
@@ -108,20 +114,44 @@
         <p>If an admin log-in in his admin account he will can modify the lessons which already exist, to add a new lesson, or to delete an existing one.</p>
     </section>
     <section id="objectives" role="doc-structure">
-        <h2>5. Future objectives</h2>
+        <h2>5. Features</h2>
         <p>Knowing that the front-end is done, we can now focus on the back-end of our web-application. </p>
     </section>
     <section id="objectives__overview" role="doc-structure">
-        <h3>5.1. Overview</h3>
-        <p>We will implement the back-end using PHP programming language, also we'll use the MVC as the arhitecture of the project. </p>
+        <h3>5.1. Register</h3>
+        <p>When an user want to create an account in our website, he will need to create an account. In the regsiter page, he have to complete username, email, password, all of these being verified in the moment when he inputs a field, so he should can create an account only if the email has an email form, the password have a minimul length etc. </p>
     </section>
     <section id="objectives__db" role="doc-structure">
-        <h3>5.2. Database</h3>
-        <p>Knowing that our application will have users, with lesson-progress and credentials, we'll use a database based on MySQL language.</p>
+        <h3>5.2. Login</h3>
+        <p>If a user already have an account on our website, he will can get into it in the Login page, so there he will can to input his credentials, being verified first of all if the username exists, after that if the password corresponds to username's password.</p>
     </section>
     <section id="objectives__microservice" role="doc-structure">
-        <h3>5.3. Microservice</h3>
-        <p>Knowing that each two lessons don't have anything in common, for each one we'll implement a microservice which will can be updated or modified on its own.</p>
+        <h3>5.3. Admin</h3>
+        <p>Knowing that the lessons shoul be modified or updated, whe have an admin account, who can acces the modify page to get control over the lessons.</p>
+    </section>
+        <section id="objectives__microservice" role="doc-structure">
+        <h3>5.4. Page restrictions</h3>
+        <p>We also implemented page restrictions, so an user who is not logged in the account, he will not acces the lessons and the steps for them. Also, a normal user will can not acces the admin page for the modify lessons, etc.</p>
+    </section>
+        <section id="objectives__microservice" role="doc-structure">
+        <h3>5.5. Microservices</h3>
+        <p>For every lesson from our application, we implemented a microservice which it's another server. For example the tie-microservice administrate the lessons for tie and sends it to the application. When the microservice receives a get request, it sends the items to the application, and in the application we only display them in the correct pages. When the microservice receives a post request, it will parse the post request and modify in the database the request sends by admin. </p>
+    </section>
+          <section id="objectives__microservice" role="doc-structure">
+        <h3>5.6. Communication with the microservices</h3>
+        <p>the communication with the microservices is done with Curl. So, via curl we send request to microservies, and it, depends on the request method, make what is necesarly.</p>
+    </section>
+        <section id="objectives__microservice" role="doc-structure">
+        <h3>5.7. Database</h3>
+        <p>For database we used Maria-Db. So the central application have the table for users and their credentials, and every microservice has their tables with lessons and their steps(article, image, etc.).</p>
+    </section>
+         <section id="objectives__microservice" role="doc-structure">
+        <h3>5.8. AJAX</h3>
+        <p>We used AJAX in our javascript code, so when an admin wants to modify a path, the lessons for it, and also the steps for lessons will load live, without making requests for server, so the admin will can handle the lessons easily.</p>
+    </section>
+        <section id="objectives__microservice" role="doc-structure">
+        <h3>5.9. SQL-injection</h3>
+        <p>Knowing that, every table or query that we execute in our program is parametrized, and nothing is hard-coded, out database is hard to can be accesed from outside the application.</p>
     </section>
     </header>
 </body>
