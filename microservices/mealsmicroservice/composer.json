@@ -1,0 +1,14 @@
+{
+    "name": "andre/mealsmicroservice",
+    "authors": [{
+        "name": "ganeaflorin",
+        "email": "ganeafloman@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "meals\\": "./"
+        }
+
+    },
+    "require": {}
+}

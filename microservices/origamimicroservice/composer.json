@@ -1,0 +1,13 @@
+{
+    "name": "andre/origamimicroservice",
+    "authors": [{
+        "name": "ganeaflorin",
+        "email": "ganeafloman@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "origami\\": "./"
+        }
+    },
+    "require": {}
+}
