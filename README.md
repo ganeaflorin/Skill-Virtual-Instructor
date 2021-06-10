@@ -30,7 +30,7 @@
                     <li><a href="#33-all-paths">All paths</a></li>
                     <li><a href="#34-login-register">Login, Register</a></li>
                     <li><a href="#35-skill-path">Skill path</a></li>
-                    <li><a href="#37-modify-page">Admin-page</a></li>
+                    <li><a href="#36-admin-page">Admin-page</a></li>
                 </ol>
             </li>
             <li><a href="#4-use-cases">Use-cases</a>
@@ -43,15 +43,15 @@
             </li>
             <li><a href="#5-features">Functionalities</a>
             <ol>
-                <li><a href="#51-overview">Register</a></li> 
-                <li><a href="#52-database">Logine</a></li> 
-                <li><a href="#53-microservice">Admin</a></li>
-                <li><a href="#53-microservice">Page-restriction</a></li>
-                <li><a href="#53-microservice">Microservices</a></li>
-                <li><a href="#53-microservice">Communication with the Microservices</a></li>
-                <li><a href="#53-microservice">Database</a></li>
-                <li><a href="#53-microservice">AJAX</a></li>
-                <li><a href="#53-microservice">SQL-injection</a></li>
+                <li><a href="#51-register">Register</a></li> 
+                <li><a href="#52-login">Logine</a></li> 
+                <li><a href="#53-admin">Admin</a></li>
+                <li><a href="#54-page-restrictions">Page-restriction</a></li>
+                <li><a href="#55-microservices">Microservices</a></li>
+                <li><a href="#56-communication-with-the-microservices">Communication with the Microservices</a></li>
+                <li><a href="#57-database">Database</a></li>
+                <li><a href="#58-ajax">AJAX</a></li>
+                <li><a href="#59-sql-injection">SQL-injection</a></li>
             </ol> </li>
         </ol>
     </div>
@@ -139,7 +139,7 @@
     </section>
           <section id="objectives__microservice" role="doc-structure">
         <h3>5.6. Communication with the microservices</h3>
-        <p>the communication with the microservices is done with Curl. So, via curl we send request to microservies, and it, depends on the request method, make what is necesarly.</p>
+        <p>The communication with the microservices is done with Curl. So, via curl we send request to microservies, and it, depends on the request method, make what is necesarly.</p>
     </section>
         <section id="objectives__microservice" role="doc-structure">
         <h3>5.7. Database</h3>
@@ -147,7 +147,7 @@
     </section>
          <section id="objectives__microservice" role="doc-structure">
         <h3>5.8. AJAX</h3>
-        <p>We used AJAX in our javascript code, so when an admin wants to modify a path, the lessons for it, and also the steps for lessons will load live, without making requests for server, so the admin will can handle the lessons easily.</p>
+        <p>We used AJAX in our javascript code, so when an admin wants to modify a path, the lessons for it, and also the steps for lessons will load live, without reloading the poge, so the admin will can handle the lessons easily.</p>
     </section>
         <section id="objectives__microservice" role="doc-structure">
         <h3>5.9. SQL-injection</h3>
