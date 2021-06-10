@@ -38,6 +38,7 @@
                 <li><a href="#41-unregistered-user">Unregistered user case</a></li>
                 <li><a href="#42-unlogged-user">Unlogged user case</a></li>
                 <li><a href="#43-logged-user">Logged User case</a></li>
+                <li><a href="#44-logged-user">Logged User case</a></li>
             </ol>
             </li>
             <li><a href="#5-future-objectives">Future objectives</a>
@@ -75,7 +76,7 @@
         <p>This page is a descriptive one which presents the trainer and its history in the top, and each path in the next of it.<br> Also, this page has the role for a simple navigation over the paths.</p>
     </section>
     <section id="structure__log/reg" role="doc-structure">
-        <h3>3.4. Login, Register, Recover-password</h3>
+        <h3>3.4. Login, Register</h3>
         <p>All of these pages have the same structure, composed by some nice-animated input labels, with its useful buttons, all arranjed in a box. </p>
     </section>
     <section id="structure__skill-path" role="doc-structure">
@@ -92,15 +93,19 @@
     </section>
     <section id="use-cases__unregisteres" role="doc-structure">
         <h3>4.1. Unregistered user</h3>
-        <p>An new user just landed on our website and its lessons sounds attractive to him. In this case, to can start them, he will need to sign-up to can see the lessons-steps, and also administrate his progress.</p>
+        <p>An new user just landed on our website and its lessons sounds attractive to him. In this case, to can start them, he will need to sign-up to can see the lessons-steps.</p>
     </section>
     <section id="use-cases__unlogged" role="doc-structure">
         <h3>4.2. Unlogged user</h3>
-        <p>A user who already has an account comes back on our application to learn something new. To access his lesson-progress and un-finished lessons from our web-app, he will need to log in.</p>
+        <p>A user who already has an account comes back on our application to learn something new. To can see our lessons, he will need to log in his account.</p>
     </section>
     <section id="use-cases__logged" role="doc-structure">
         <h3>4.3. Logged user</h3>
-        <p>User just logged in, so he will can start a new lesson, continue a started one, administrate his profile etc.</p>
+        <p>If a user log in his account, he will get acces to see lessons for every path.</p>
+    </section>
+        <section id="use-cases__admin" role="doc-structure">
+        <h3>4.3. Admin</h3>
+        <p>If an admin log-in in his admin account he will can modify the lessons which already exist, to add a new lesson, or to delete an existing one.</p>
     </section>
     <section id="objectives" role="doc-structure">
         <h2>5. Future objectives</h2>
