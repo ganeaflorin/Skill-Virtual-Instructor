@@ -10,7 +10,7 @@
     <header>
         <h1>Ski-VI</h1>
         <h2>Your personal trainer</h2>
-        <h3><a href="http://skivi.great-site.net/skivi/landing/landing.php">Check it here!</a></h3>
+        <h3><a href="https://www.youtube.com/watch?v=wSTfpCuSP84">Check it here! [VIDEO]</a></h3>
         <dl>
             <dt>Authors</dt>
             <dd><a href="https://github.com/ganeaflorin">Ganea Florin</a> 2A5 & <a href="https://github.com/MarianIosub">Iosub Ovidiu-Marian</a> 2B4</dd>
